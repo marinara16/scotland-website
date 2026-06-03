@@ -1,0 +1,186 @@
+'use client';
+
+import { useState } from 'react';
+import type { Day, Stop } from '@/lib/types';
+import { CATEGORY_CONFIG, BOOKING_STATUS_CONFIG } from '@/lib/colors';
+
+interface Props {
+  day: Day;
+  allDays: Day[];
+  onBack: () => void;
+  onSelectDay: (d: Day) => void;
+}
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+export default function DayDetail({ day, allDays, onBack, onSelectDay }: Props) {
+  const [expandedStops, setExpandedStops] = useState<Set<string>>(new Set());
+  const date = new Date(day.date + 'T00:00:00');
+
+  function toggleStop(id: string) {
+    setExpandedStops((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }
+
+  const prevDay = allDays.find((d) => d.dayNumber === day.dayNumber - 1);
+  const nextDay = allDays.find((d) => d.dayNumber === day.dayNumber + 1);
+
+  return (
+    <div className="min-h-screen bg-stone-50 pb-8">
+      {/* Header */}
+      <header className="sticky top-0 z-30 bg-white border-b border-stone-100">
+        <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
+          <button onClick={onBack} className="p-1 -ml-1 text-stone-500 hover:text-stone-800 transition-colors">
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <div className="flex-1">
+            <div className="text-xs text-stone-400 font-medium">Day {day.dayNumber}</div>
+            <h1 className="text-base font-semibold text-stone-800 leading-tight">{day.location}</h1>
+          </div>
+          <div className="text-right text-sm text-stone-400">
+            {date.getDate()} {MONTHS[date.getMonth()]}
+          </div>
+        </div>
+      </header>
+
+      {/* Hotel strip */}
+      {day.overnightHotel && (
+        <div className="max-w-2xl mx-auto px-4 pt-3">
+          <div className="flex items-center gap-2 text-xs text-stone-500 bg-[#eef2f7] rounded-lg px-3 py-2">
+            <span>🏨</span>
+            <span>{day.overnightHotel}</span>
+          </div>
+        </div>
+      )}
+
+      {/* Timeline */}
+      <div className="max-w-2xl mx-auto px-4 pt-4 space-y-0">
+        {day.stops.map((stop, index) => (
+          <StopItem
+            key={stop.id}
+            stop={stop}
+            isLast={index === day.stops.length - 1}
+            isExpanded={expandedStops.has(stop.id)}
+            onToggle={() => toggleStop(stop.id)}
+          />
+        ))}
+      </div>
+
+      {/* Day navigation */}
+      <div className="max-w-2xl mx-auto px-4 pt-6 flex gap-3">
+        {prevDay ? (
+          <button
+            onClick={() => onSelectDay(prevDay)}
+            className="flex-1 py-3 rounded-xl border border-stone-200 bg-white text-sm text-stone-600 hover:border-stone-300 transition-colors text-left px-4"
+          >
+            <div className="text-xs text-stone-400 mb-0.5">← Day {prevDay.dayNumber}</div>
+            <div className="font-medium truncate">{prevDay.location}</div>
+          </button>
+        ) : <div className="flex-1" />}
+        {nextDay ? (
+          <button
+            onClick={() => onSelectDay(nextDay)}
+            className="flex-1 py-3 rounded-xl border border-stone-200 bg-white text-sm text-stone-600 hover:border-stone-300 transition-colors text-right px-4"
+          >
+            <div className="text-xs text-stone-400 mb-0.5">Day {nextDay.dayNumber} →</div>
+            <div className="font-medium truncate">{nextDay.location}</div>
+          </button>
+        ) : <div className="flex-1" />}
+      </div>
+    </div>
+  );
+}
+
+function StopItem({
+  stop,
+  isLast,
+  isExpanded,
+  onToggle,
+}: {
+  stop: Stop;
+  isLast: boolean;
+  isExpanded: boolean;
+  onToggle: () => void;
+}) {
+  const config = CATEGORY_CONFIG[stop.category];
+  const booking = BOOKING_STATUS_CONFIG[stop.bookingStatus];
+
+  return (
+    <div className="flex gap-3">
+      {/* Timeline column */}
+      <div className="flex flex-col items-center w-6 flex-shrink-0">
+        <div
+          className="w-3 h-3 rounded-full mt-4 flex-shrink-0 ring-2 ring-white"
+          style={{ backgroundColor: config.color }}
+        />
+        {!isLast && <div className="w-px flex-1 bg-stone-200 mt-1" />}
+      </div>
+
+      {/* Card */}
+      <div className="flex-1 pb-4">
+        <div className="text-xs text-stone-400 font-medium mb-1">{stop.time}</div>
+        <button
+          onClick={onToggle}
+          className="w-full text-left bg-white border border-stone-150 rounded-xl p-4 hover:border-stone-300 transition-all active:scale-[0.99]"
+        >
+          {/* Top row */}
+          <div className="flex items-start justify-between gap-2">
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span
+                  className="inline-flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full"
+                  style={{ backgroundColor: config.color + '18', color: config.color }}
+                >
+                  {config.label}
+                </span>
+                <span className="text-sm">{booking.icon}</span>
+              </div>
+              <div className="font-semibold text-stone-800 mt-1.5 text-sm leading-snug">{stop.title}</div>
+            </div>
+            <svg
+              className={`w-4 h-4 text-stone-400 flex-shrink-0 mt-1 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+
+          {/* Highlight note — always visible */}
+          {stop.highlightNote && (
+            <p className="text-stone-500 text-xs mt-2 leading-relaxed">{stop.highlightNote}</p>
+          )}
+
+          {/* Expanded content */}
+          {isExpanded && (
+            <div className="mt-3 pt-3 border-t border-stone-100 space-y-2">
+              {stop.expandedNote && (
+                <p className="text-stone-600 text-xs leading-relaxed">{stop.expandedNote}</p>
+              )}
+              {stop.address && (
+                <div className="flex items-start gap-1.5 text-xs text-stone-400">
+                  <svg className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span>{stop.address}</span>
+                </div>
+              )}
+              <div className="flex items-center gap-1.5 text-xs text-stone-400">
+                <span>{booking.icon}</span>
+                <span>{booking.label}</span>
+              </div>
+            </div>
+          )}
+        </button>
+      </div>
+    </div>
+  );
+}
