@@ -101,16 +101,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d3-s3",
-          "time": "14:00",
-          "title": "Check in — Cameron House",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Cameron House, Loch Lomond, G83 8QZ",
-          "highlightNote": "5-star loch-front resort. Spa, boat trips, and stunning views.",
-          "expandedNote": "Confirmation: CH-2026-MALDA. Check in from 15:00. Spa passes included with room. On-site marina with boat hire available. Restaurant reservations recommended — book at check-in. Room: Loch View Deluxe."
-        },
-        {
           "id": "d3-s4",
           "time": "16:00",
           "title": "Loch Lomond Boat Trip",
