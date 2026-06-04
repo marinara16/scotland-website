@@ -160,16 +160,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d5-s1",
-          "time": "07:30",
-          "title": "Ben Nevis Summit Attempt",
-          "category": "hiking",
-          "bookingStatus": "booked-allday",
-          "address": "Ben Nevis Visitor Centre, Achintee Rd, Fort William PH33 6TE",
-          "highlightNote": "UK's highest peak at 1,345m. Full day hike — 8-10 hours return via Tourist Track.",
-          "expandedNote": "Start early — summit often clouds over by midday. Mountain Track (Tourist Route) from Visitor Centre: 17km return, 1,350m elevation gain. Bring: waterproofs, warm layers, food, 2L water, map. Check Mountain Weather Scotland forecast morning of. Summit marker is a cairn and emergency shelter."
-        },
-        {
           "id": "d5-s2",
           "time": "17:00",
           "title": "Check in — Inverlochy Castle",
