@@ -303,16 +303,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d13-s2",
-          "time": "11:00",
-          "title": "Kelvingrove Art Gallery",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Argyle St, Glasgow G3 8AG",
-          "highlightNote": "One of the UK's best free museums — Salvador Dali's Christ of St John of the Cross lives here.",
-          "expandedNote": "Free entry. The Dali painting is extraordinary. Also: Dutch Masters, Charles Rennie Mackintosh room, Spitfire hanging from the ceiling. Allow 2 hours minimum. Café on the ground floor for a break. The building itself (1901) is spectacular — look at the rear entrance."
-        },
-        {
           "id": "d13-s3",
           "time": "13:30",
           "title": "Lunch at The Ubiquitous Chip",
