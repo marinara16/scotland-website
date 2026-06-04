@@ -286,16 +286,6 @@
           "expandedNote": "Route: Craigellachie → A95 → A939 → A93 (Royal Deeside). Stop briefly at Balmoral Estate — you can walk the grounds when the Royal Family is not in residence. Braemar Castle is a short detour, worth 45 minutes."
         },
         {
-          "id": "d10-s2",
-          "time": "12:00",
-          "title": "Dunnottar Castle",
-          "category": "activity",
-          "bookingStatus": "tickets-needed",
-          "address": "Dunnottar Castle, Stonehaven AB39 2TL",
-          "highlightNote": "Dramatic clifftop castle ruin — one of Scotland's most atmospheric and photographed sites.",
-          "expandedNote": "Entry ~£9. 15-minute walk from the car park down a coastal path to the castle. The castle was used to hide the Scottish Crown Jewels from Cromwell. Extraordinary setting on a sheer headland. Very atmospheric in low autumn light. Allow 1.5 hours."
-        },
-        {
           "id": "d10-s3",
           "time": "14:00",
           "title": "Stonehaven Harbour & Fish & Chips",
