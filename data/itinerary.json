@@ -294,16 +294,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d12-s5",
-          "time": "16:30",
-          "title": "Check in — Roman Camp Country House",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Main St, Callander FK17 8BG",
-          "highlightNote": "17th century pink-painted country house hotel in a secret riverside garden. Very special.",
-          "expandedNote": "Confirmation: RC-2026-MALDA. Hidden behind a pink gate on the main street of Callander. 20-acre grounds with river frontage. Log fires in the drawing room. The hotel was originally a Roman hunting lodge. Dog-friendly. No spa but very calming atmosphere."
-        },
-        {
           "id": "d12-s6",
           "time": "19:00",
           "title": "Dinner at Roman Camp Restaurant",
