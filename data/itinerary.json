@@ -94,7 +94,9 @@
           "bookingStatus": "free",
           "address": "Edinburgh EH7 5AA, United Kingdom",
           "highlightNote": "Sunset views, National Monument, Nelson Monument, and City Observatory",
-          "expandedNote": "Best light 5:00 to 6:30 PM in October."
+          "expandedNote": "Best light 5:00 to 6:30 PM in October.",
+          "lat": 55.954315,
+          "lng": -3.18534
         }
       ]
     },
