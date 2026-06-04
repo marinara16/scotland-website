@@ -458,7 +458,9 @@
           "bookingStatus": "tickets-needed",
           "address": "MacLeod Estate, Dunvegan House, Dunvegan, Isle of Skye IV55 8WF, United Kingdom",
           "highlightNote": "Oldest continuously inhabited castle in Scotland",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 57.436913,
+          "lng": -6.581681
         },
         {
           "id": "day-8-s1780552161520",
