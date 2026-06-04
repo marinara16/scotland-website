@@ -312,16 +312,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d14-s2",
-          "time": "09:30",
-          "title": "Breakfast & final Glasgow wander",
-          "category": "leisure",
-          "bookingStatus": "booked-allday",
-          "address": "Buchanan Street, Glasgow G1 2GF",
-          "highlightNote": "Last morning — walk Buchanan Street and grab breakfast at Paesano for a Scottish farewell.",
-          "expandedNote": "Paesano Pizza on Great Western Road does an excellent morning roll and coffee. Buchanan Street is Glasgow's main shopping street — good for last minute gifts. The Lighthouse (Charles Rennie Mackintosh's building) is a free visit and has a rooftop view of Glasgow."
-        },
-        {
           "id": "d14-s3",
           "time": "12:00",
           "title": "Check out & transfer to Glasgow Airport",
