@@ -285,16 +285,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d11-s5",
-          "time": "16:30",
-          "title": "Check in — The Old Course Hotel",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Old Station Road, St Andrews KY16 9SP",
-          "highlightNote": "Legendary golf hotel overlooking the 17th hole of the Old Course. Landmark property.",
-          "expandedNote": "Confirmation: OCH-2026-MALDA. One of Scotland's most famous hotels. Views over the Old Course from the Road Hole bar. Spa available. Ask for a room overlooking the course. The Jigger Inn pub is attached — excellent for a pint."
-        },
-        {
           "id": "d11-s6",
           "time": "19:30",
           "title": "Dinner at Rocca Restaurant, Old Course Hotel",
