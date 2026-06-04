@@ -525,6 +525,19 @@
           "expandedNote": "",
           "lat": 56.682545,
           "lng": -5.102262
+        },
+        {
+          "id": "day-9-s1780553295021",
+          "time": "14:00",
+          "title": "Glencoe Lochan Circuit",
+          "category": "hiking",
+          "bookingStatus": "just-show-up",
+          "address": "Glencoe Lochan, Ballachulish PH49 4HT, United Kingdom",
+          "highlightNote": "Short hike around the Lochan, about 1-1.5 hrs",
+          "expandedNote": "",
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-and-lochan-circular",
+          "lat": 56.68275,
+          "lng": -5.101232
         }
       ]
     },
