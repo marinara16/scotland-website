@@ -303,16 +303,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d13-s5",
-          "time": "17:00",
-          "title": "Merchant City & Glasgow Cathedral",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Castle St, Glasgow G4 0QZ",
-          "highlightNote": "The medieval heart of Glasgow. The Cathedral is stunning and largely intact.",
-          "expandedNote": "Glasgow Cathedral is free and one of the most complete medieval churches in Scotland. Adjacent Necropolis is Glasgow's Victorian garden cemetery on a hill — extraordinary. Merchant City nearby has great independent shops and galleries."
-        },
-        {
           "id": "d13-s6",
           "time": "19:30",
           "title": "Dinner at Ox and Finch",
