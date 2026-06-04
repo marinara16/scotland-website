@@ -403,7 +403,21 @@
       "location": "Isle of Skye",
       "overnightHotel": "The Portree Hotel",
       "primaryCategory": "travel",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-8-s1780549551757",
+          "time": "08:30",
+          "title": "The Quiraing",
+          "category": "hiking",
+          "bookingStatus": "free",
+          "address": "Unnamed Road, Portree, Sartle, Staffin, Portree IV51 9LB, United Kingdom",
+          "highlightNote": "Car park fees. 8.4 km, allow 3-4 hours",
+          "expandedNote": "",
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/the-quiraing",
+          "lat": 57.626728,
+          "lng": -6.207455
+        }
+      ]
     },
     {
       "id": "day-9",
