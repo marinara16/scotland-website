@@ -333,6 +333,18 @@
           "expandedNote": "Reservation Number: 33418",
           "lat": 57.412929,
           "lng": -6.194617
+        },
+        {
+          "id": "day-6-s1780538384036",
+          "time": "09:00",
+          "title": "Inverness to Drumnadrochit",
+          "category": "travel",
+          "bookingStatus": "free",
+          "address": "Drumnadrochit, UK",
+          "highlightNote": "~30 miles, ~30 min",
+          "expandedNote": "",
+          "lat": 57.335693,
+          "lng": -4.479998
         }
       ]
     },
