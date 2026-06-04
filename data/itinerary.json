@@ -479,7 +479,20 @@
       "location": "Isle of Skye to Glencoe",
       "overnightHotel": "Beechwood Cottage B&B",
       "primaryCategory": "travel",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-9-s1780552746821",
+          "time": "10:00",
+          "title": "Isle of Skye to Fort Williams via Skye Bridge",
+          "category": "travel",
+          "bookingStatus": "none",
+          "address": "Fort William, UK",
+          "highlightNote": "~110 miles, ~2 hr 30 min",
+          "expandedNote": "Go through Skye Bridge, down towards Invergarry Castle. ",
+          "lat": 56.817867,
+          "lng": -5.111294
+        }
+      ]
     },
     {
       "id": "day-10",
