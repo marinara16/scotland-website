@@ -31,16 +31,6 @@
           "expandedNote": "Confirmation: BM-OCT2026-MALDA. Breakfast included. "
         },
         {
-          "id": "d1-s3",
-          "time": "15:00",
-          "title": "Royal Mile wander & orientation walk",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Royal Mile, Edinburgh EH1 1RG",
-          "highlightNote": "Walk from Edinburgh Castle down to Holyrood Palace. Get your bearings.",
-          "expandedNote": "About 1.6km end to end. Lined with shops, pubs, and street performers. Pop into St Giles' Cathedral for free — stunning medieval interior. The Camera Obscura is fun if it's raining."
-        },
-        {
           "id": "d1-s4",
           "time": "19:30",
           "title": "Dinner at The Witchery by the Castle",
