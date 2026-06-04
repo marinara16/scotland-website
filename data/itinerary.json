@@ -149,7 +149,20 @@
       "location": "Edinburgh to Inverness",
       "overnightHotel": "",
       "primaryCategory": "travel",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-4-s1780535445291",
+          "time": "08:30",
+          "title": "Pick up Rental Car to head out",
+          "category": "travel",
+          "bookingStatus": "tickets-needed",
+          "address": "Waverley Station Level, Car Park, 2 New St, Edinburgh EH8 8BH, United Kingdom",
+          "highlightNote": "Still need to book rental car",
+          "expandedNote": "",
+          "lat": 55.950971,
+          "lng": -3.182267
+        }
+      ]
     },
     {
       "id": "day-5",
