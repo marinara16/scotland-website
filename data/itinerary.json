@@ -127,6 +127,18 @@
           "address": "XR2J+F5, Edinburgh EH8 8AZ, United Kingdom",
           "highlightNote": "Optional depending on the weather ",
           "expandedNote": ""
+        },
+        {
+          "id": "day-3-s1780535196403",
+          "time": "",
+          "title": "Leith (Neighboorhood)",
+          "category": "leisure",
+          "bookingStatus": "booked-allday",
+          "address": "Leith, Edinburgh EH6 6JJ, UK",
+          "highlightNote": "Back up idea, port neighborhood.",
+          "expandedNote": "",
+          "lat": 55.970566,
+          "lng": -3.171885
         }
       ]
     },
