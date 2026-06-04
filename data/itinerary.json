@@ -548,7 +548,19 @@
       "location": "Glencoe",
       "overnightHotel": "Beechwood Cottage B&B",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-10-s1780553866183",
+          "time": "08:30",
+          "title": "Three Sister's ",
+          "category": "hiking",
+          "bookingStatus": "none",
+          "address": "A82, Ballachulish PH49 4HX, United Kingdom",
+          "highlightNote": "Allow 1-2 hours",
+          "expandedNote": "",
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-military-road-from-three-sisters-car-park"
+        }
+      ]
     },
     {
       "id": "day-11",
