@@ -449,6 +449,16 @@
           "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/the-quiraing",
           "lat": 57.626728,
           "lng": -6.207455
+        },
+        {
+          "id": "day-8-s1780552095671",
+          "time": "13:00",
+          "title": "Dunvegan Castle & Gardens",
+          "category": "activity",
+          "bookingStatus": "tickets-needed",
+          "address": "MacLeod Estate, Dunvegan House, Dunvegan, Isle of Skye IV55 8WF, United Kingdom",
+          "highlightNote": "Oldest continuously inhabited castle in Scotland",
+          "expandedNote": ""
         }
       ]
     },
