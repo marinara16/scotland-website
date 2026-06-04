@@ -695,6 +695,18 @@
           "expandedNote": "",
           "lat": 55.864172,
           "lng": -4.23656
+        },
+        {
+          "id": "day-12-s1780555396052",
+          "time": "",
+          "title": "Merchant Square",
+          "category": "idea",
+          "bookingStatus": "just-show-up",
+          "address": "71 Albion St, Glasgow G1 1NY, United Kingdom",
+          "highlightNote": "Get off on Stop 4 and walk 2-3 blocks",
+          "expandedNote": "",
+          "lat": 55.85873,
+          "lng": -4.24469
         }
       ]
     },
