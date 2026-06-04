@@ -263,6 +263,18 @@
           "address": "Church St, Inverness IV1 1EY, United Kingdom",
           "highlightNote": "Browse for books inside a restored 17th-century church",
           "expandedNote": ""
+        },
+        {
+          "id": "day-5-s1780536453937",
+          "time": "14:00",
+          "title": "Culloden Battlefield - Guided Tour",
+          "category": "tour",
+          "bookingStatus": "tickets-needed",
+          "address": "Culloden Moor, Inverness IV2 5EU, United Kingdom",
+          "highlightNote": "October tickets should be available in July, 16.50 per person plus 5 for parking.",
+          "expandedNote": "",
+          "lat": 57.489258,
+          "lng": -4.133785
         }
       ]
     },
