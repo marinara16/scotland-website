@@ -149,18 +149,7 @@
       "location": "Glencoe",
       "overnightHotel": "Glencoe Inn, Glencoe",
       "primaryCategory": "hiking",
-      "stops": [
-        {
-          "id": "d4-s5",
-          "time": "19:00",
-          "title": "Dinner at Glencoe Inn Bar",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Glencoe Inn, Glencoe PH49 4HT",
-          "highlightNote": "Hearty Scottish pub food after a big hike. Venison stew and whisky mac recommended.",
-          "expandedNote": "In-house dining. Menu changes daily — always haggis, neeps & tatties, and local game. Ask the landlord for a dram of Glencoe 8 Year Old — distilled nearby. Atmosphere is excellent on a dark October evening."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-5",
