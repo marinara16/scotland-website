@@ -393,6 +393,18 @@
           "expandedNote": "",
           "lat": 57.609874,
           "lng": -6.182133
+        },
+        {
+          "id": "day-7-s1780551277996",
+          "time": "12:00",
+          "title": "An Corran Beach",
+          "category": "activity",
+          "bookingStatus": "just-show-up",
+          "address": "Unnamed Road, 9JT, Portree, United Kingdom",
+          "highlightNote": "Dinosaur Footprint Hunting",
+          "expandedNote": "",
+          "lat": 53.484409,
+          "lng": -2.36923
         }
       ]
     },
