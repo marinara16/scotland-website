@@ -187,16 +187,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d8-s2",
-          "time": "12:30",
-          "title": "Loch Ness & Urquhart Castle",
-          "category": "activity",
-          "bookingStatus": "tickets-needed",
-          "address": "Urquhart Castle, Drumnadrochit IV63 6XJ",
-          "highlightNote": "Dramatic ruined castle overlooking Loch Ness. Some of the best Nessie-spotting real estate.",
-          "expandedNote": "Entry ~£10. Historic Scotland property. The castle was blown up in 1692 to prevent Jacobite use. Grant Tower gives the best views down the loch. Exhibition centre has the full Nessie history — excellent even for sceptics. Busy in season so go early."
-        },
-        {
           "id": "d8-s3",
           "time": "15:30",
           "title": "Check in — Rocpool Reserve",
