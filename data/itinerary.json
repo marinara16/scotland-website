@@ -176,18 +176,7 @@
       "location": "Isle of Skye",
       "overnightHotel": "Sligachan Hotel, Isle of Skye",
       "primaryCategory": "activity",
-      "stops": [
-        {
-          "id": "d7-s5",
-          "time": "19:30",
-          "title": "Dinner at The Three Chimneys",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Colbost, Dunvegan, Isle of Skye IV55 8ZT",
-          "highlightNote": "One of Scotland's most celebrated restaurants. 30 min from Sligachan but worth every mile.",
-          "expandedNote": "Reservation under Malda, party of 2. Dress smart. Known as one of the top 50 restaurants in the world. 6-course tasting menu ~£120pp. All produce sourced from Skye and the surrounding islands. Book the Showcase menu — best representation of what they do. Drive back carefully on single-track roads."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-8",
