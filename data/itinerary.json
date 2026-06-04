@@ -312,16 +312,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d14-s3",
-          "time": "12:00",
-          "title": "Check out & transfer to Glasgow Airport",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "Glasgow Airport, Paisley PA3 2SW",
-          "highlightNote": "About 20 minutes from city centre by taxi or Paisley Canal train.",
-          "expandedNote": "Check out by 12:00 — ask hotel to hold luggage if needed. Taxi from Blythswood Square to airport: ~£25 and 20-25 mins. Train: Glasgow Central → Paisley Canal is 20 mins, then short walk. Allow 2.5 hours for international departure."
-        },
-        {
           "id": "d14-s4",
           "time": "15:00",
           "title": "Depart Glasgow Airport",
