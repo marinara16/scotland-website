@@ -151,16 +151,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d4-s3",
-          "time": "12:00",
-          "title": "Three Sisters Ridge Walk",
-          "category": "hiking",
-          "bookingStatus": "booked-allday",
-          "address": "Glen Coe Viewpoint Layby, A82, PH49 4HX",
-          "highlightNote": "Iconic Glencoe view — the three rock buttresses with the valley below. 4-hour return.",
-          "expandedNote": "Park at the large layby on the A82 (free). Follow the path up to Coire Gabhail (The Lost Valley) for a less strenuous option — beautiful hidden valley between the Sisters. Full ridge walk is challenging — grade 3. Bring waterproofs and navigation — conditions change rapidly."
-        },
-        {
           "id": "d4-s4",
           "time": "17:00",
           "title": "Check in — Glencoe Inn",
