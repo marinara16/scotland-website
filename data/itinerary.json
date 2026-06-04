@@ -276,16 +276,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d10-s3",
-          "time": "14:00",
-          "title": "Stonehaven Harbour & Fish & Chips",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Stonehaven Harbour, AB39 2JU",
-          "highlightNote": "Pretty harbour town — get the best fish & chips in Scotland at The Bay.",
-          "expandedNote": "The Bay Fish & Chips has won awards for being the most sustainable fish and chip shop in the UK. Eat outside overlooking the harbour. Try the local haddock — not cod. Open from noon. Very casual — no booking."
-        },
-        {
           "id": "d10-s4",
           "time": "15:30",
           "title": "Check in — Marcliffe Hotel",
