@@ -169,16 +169,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d6-s4",
-          "time": "15:30",
-          "title": "Check in — Sligachan Hotel",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Sligachan, Isle of Skye IV47 8SW",
-          "highlightNote": "Legendary Highland hotel at the base of the Black Cuillins. Walkers' paradise.",
-          "expandedNote": "Confirmation: SH-2026-MALDA. One of the most famous mountain hotels in Scotland. Attached microbrewery. Stunning views of the Cuillin ridge from every window. Bar food available all day. Allt Dearg waterfall walk from the hotel is 1 hour — do it before dinner."
-        },
-        {
           "id": "d6-s5",
           "time": "19:00",
           "title": "Dinner at Seumas' Bar, Sligachan",
