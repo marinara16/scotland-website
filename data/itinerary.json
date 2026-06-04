@@ -283,18 +283,7 @@
       "location": "St Andrews & Fife",
       "overnightHotel": "The Old Course Hotel, St Andrews",
       "primaryCategory": "activity",
-      "stops": [
-        {
-          "id": "d11-s6",
-          "time": "19:30",
-          "title": "Dinner at Rocca Restaurant, Old Course Hotel",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Old Station Road, St Andrews KY16 9SP",
-          "highlightNote": "Fine dining with views over the 18th fairway as the sun sets. Italian-Scottish fusion.",
-          "expandedNote": "Reservation confirmed. Smart dress required. The tasting menu is the best option — highlights what's in season. Request a window table for sunset views over the course. Excellent wine list."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-12",
