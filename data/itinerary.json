@@ -276,16 +276,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d10-s4",
-          "time": "15:30",
-          "title": "Check in — Marcliffe Hotel",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "North Deeside Rd, Pitfodels, Aberdeen AB15 9YA",
-          "highlightNote": "Aberdeen's finest country house hotel — elegant, comfortable, and close to the city.",
-          "expandedNote": "Confirmation: MH-2026-MALDA. Country house hotel on 8 acres just west of Aberdeen city centre. Excellent in-house restaurant. Evening cocktails in the conservatory lounge. Good place to relax after the long drive days."
-        },
-        {
           "id": "d10-s5",
           "time": "19:30",
           "title": "Dinner at The Conservatory, Marcliffe",
