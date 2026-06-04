@@ -425,7 +425,9 @@
           "address": "Highland Skye, Uig, Portree IV51 9YG, United Kingdom",
           "highlightNote": "Short Walk around the Fairy Glen",
           "expandedNote": "",
-          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/the-fairy-glen-circular"
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/the-fairy-glen-circular",
+          "lat": 57.59232,
+          "lng": -6.372524
         }
       ]
     },
