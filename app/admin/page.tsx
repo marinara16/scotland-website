@@ -11,7 +11,7 @@ const EMPTY_STOP: Omit<Stop, 'id'> = {
   time: '',
   title: '',
   category: 'activity',
-  bookingStatus: 'booked-allday',
+  bookingStatus: 'none',
   address: '',
   highlightNote: '',
   expandedNote: '',
@@ -540,7 +540,7 @@ function StopForm({
   submitLabel: string;
 }) {
   const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure', 'idea'];
-  const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'parking-fee', 'tickets-needed', 'just-show-up', 'pay-on-day'];
+  const statuses: BookingStatus[] = ['none', 'booked-timed', 'booked-allday', 'free', 'parking-fee', 'tickets-needed', 'just-show-up', 'pay-on-day'];
   const [geocoding, setGeocoding] = useState(false);
   const [geocodeError, setGeocodeError] = useState('');
 
@@ -612,7 +612,7 @@ function StopForm({
       </div>
 
       <div>
-        <label className={labelCls}>Booking Status</label>
+        <label className={labelCls}>Entry & Cost</label>
         <select
           value={stop.bookingStatus}
           onChange={(e) => field('bookingStatus', e.target.value)}

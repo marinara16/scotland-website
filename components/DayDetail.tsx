@@ -139,7 +139,7 @@ function StopItem({
                 >
                   {config.label}
                 </span>
-                <span className="text-sm">{booking.icon}</span>
+                {stop.bookingStatus !== 'none' && <span className="text-sm">{booking.icon}</span>}
               </div>
               <div className="font-semibold text-stone-800 mt-1.5 text-sm leading-snug">{stop.title}</div>
             </div>
@@ -187,10 +187,12 @@ function StopItem({
                   </a>
                 </div>
               )}
-              <div className="flex items-center gap-1.5 text-xs text-stone-400">
-                <span>{booking.icon}</span>
-                <span>{booking.label}</span>
-              </div>
+              {stop.bookingStatus !== 'none' && (
+                <div className="flex items-center gap-1.5 text-xs text-stone-400">
+                  <span>{booking.icon}</span>
+                  <span>{booking.label}</span>
+                </div>
+              )}
               {stop.category === 'hiking' && stop.trailUrl && (
                 <a
                   href={stop.trailUrl}
