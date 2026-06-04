@@ -99,18 +99,7 @@
       "location": "Edinburgh",
       "overnightHotel": "InterContinental Edinburgh the George by IHG",
       "primaryCategory": "travel",
-      "stops": [
-        {
-          "id": "d3-s5",
-          "time": "19:30",
-          "title": "Dinner at Boat House Restaurant",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Cameron House Marina, Loch Lomond G83 8QZ",
-          "highlightNote": "Lochside dining with views straight across the water. Fresh Scottish seafood.",
-          "expandedNote": "Reservation at Cameron House Boat House. Dress smart casual. Known for local langoustines, venison, and an excellent gin selection. Ask the sommelier for a Scottish craft wine pairing."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-4",
