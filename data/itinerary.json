@@ -639,6 +639,18 @@
           "expandedNote": "",
           "lat": 55.861449,
           "lng": -4.273507
+        },
+        {
+          "id": "day-11-s1780554837759",
+          "time": "12:00",
+          "title": "Return Car Rental",
+          "category": "travel",
+          "bookingStatus": "none",
+          "address": "40 Oswald St, Glasgow G1 4PL, United Kingdom",
+          "highlightNote": "",
+          "expandedNote": "",
+          "lat": 55.85746,
+          "lng": -4.25951
         }
       ]
     },
