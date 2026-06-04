@@ -160,16 +160,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d5-s2",
-          "time": "17:00",
-          "title": "Check in — Inverlochy Castle",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Torlundy, Fort William PH33 6SN",
-          "highlightNote": "Victorian castle hotel in stunning mountain setting. A genuine treat after the big hike.",
-          "expandedNote": "Confirmation: IC-2026-MALDA. One of Scotland's finest country house hotels. Set on 500 acres. Dinner included (house dining). Dress formally for dinner. In-room whisky decanter complimentary. Mountain views from room."
-        },
-        {
           "id": "d5-s3",
           "time": "19:30",
           "title": "Dinner at Inverlochy Castle Dining Room",
