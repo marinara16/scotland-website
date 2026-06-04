@@ -285,16 +285,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d11-s4",
-          "time": "15:00",
-          "title": "Walk the Old Course & West Sands Beach",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "West Sands Beach, St Andrews KY16 9XJ",
-          "highlightNote": "The beach from Chariots of Fire. Long, wild, and beautiful in October light.",
-          "expandedNote": "Free and open. West Sands is a 2km stretch of beach right next to the Old Course golf links. The Swilcan Bridge on the 18th hole is a pilgrimage for golf fans — you can walk across it. St Andrews Links is the home of golf."
-        },
-        {
           "id": "d11-s5",
           "time": "16:30",
           "title": "Check in — The Old Course Hotel",
