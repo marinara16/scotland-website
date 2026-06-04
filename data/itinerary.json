@@ -169,16 +169,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d6-s2",
-          "time": "11:30",
-          "title": "Eilean Donan Castle",
-          "category": "activity",
-          "bookingStatus": "tickets-needed",
-          "address": "Eilean Donan, Dornie, Kyle IV40 8DX",
-          "highlightNote": "Possibly the most iconic Scottish castle, sitting on a small island at the loch junction.",
-          "expandedNote": "Entry: ~£12 adult. Guided tours run every 30 minutes. The castle was used in Highlander and The World Is Not Enough. Interior tour takes about 45 minutes. Gift shop has excellent quality goods."
-        },
-        {
           "id": "d6-s3",
           "time": "14:00",
           "title": "Cross Skye Bridge & arrive on island",
