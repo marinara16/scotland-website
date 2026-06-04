@@ -312,16 +312,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d14-s1",
-          "time": "08:00",
-          "title": "Return rental car",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "Arnold Clark, 84 Lancefield St, Glasgow G3 8JE",
-          "highlightNote": "Return the rental before 10am to avoid extra day charge.",
-          "expandedNote": "Arnold Clark Glasgow Lancefield Street branch. Reference: AC-SCOT-2026. Full tank on return. Note any scratches on the return form. Take photos of the car before handover. Uber or taxi back to hotel: ~10 minutes."
-        },
-        {
           "id": "d14-s2",
           "time": "09:30",
           "title": "Breakfast & final Glasgow wander",
