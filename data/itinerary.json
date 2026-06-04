@@ -294,16 +294,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d12-s3",
-          "time": "13:00",
-          "title": "The Smithy Coffee Shop, Stirling",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "5 Broad St, Stirling FK8 1EE",
-          "highlightNote": "Local favourite in the old town — excellent lunches and home baking.",
-          "expandedNote": "Just below the castle on Broad Street. Excellent soup, doorstep sandwiches, and scones. Relaxed and friendly — no reservation needed. Good place to review the afternoon plan with coffee."
-        },
-        {
           "id": "d12-s4",
           "time": "14:30",
           "title": "Drive through the Trossachs",
