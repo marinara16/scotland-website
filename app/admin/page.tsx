@@ -12,7 +12,7 @@ const EMPTY_STOP: Omit<Stop, 'id'> = {
   time: '',
   title: '',
   category: 'activity',
-  bookingStatus: 'booked',
+  bookingStatus: 'booked-allday',
   address: '',
   highlightNote: '',
   expandedNote: '',
@@ -426,7 +426,7 @@ function StopForm({
   submitLabel: string;
 }) {
   const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure'];
-  const statuses: BookingStatus[] = ['booked', 'tickets-needed', 'timed-entry'];
+  const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'tickets-needed'];
 
   function field(key: keyof Omit<Stop, 'id'>, value: string) {
     onChange({ ...stop, [key]: value });

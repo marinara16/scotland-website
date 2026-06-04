@@ -15,7 +15,7 @@
           "time": "21:15",
           "title": "Arrive Edinburgh Airport",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Edinburgh Airport, EH12 9DN",
           "highlightNote": "",
           "expandedNote": ""
@@ -25,7 +25,7 @@
           "time": "13:00",
           "title": "Check in & settle — The Balmoral",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "1 Princes St, Edinburgh EH2 2EQ",
           "highlightNote": "Iconic clock tower hotel right on Princes Street. Ask for a Castle view room.",
           "expandedNote": "Confirmation: BM-OCT2026-MALDA. Check-in from 15:00 but luggage storage available earlier. Breakfast included. Parking available at NCP nearby — £25/night."
@@ -35,7 +35,7 @@
           "time": "15:00",
           "title": "Royal Mile wander & orientation walk",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Royal Mile, Edinburgh EH1 1RG",
           "highlightNote": "Walk from Edinburgh Castle down to Holyrood Palace. Get your bearings.",
           "expandedNote": "About 1.6km end to end. Lined with shops, pubs, and street performers. Pop into St Giles' Cathedral for free — stunning medieval interior. The Camera Obscura is fun if it's raining."
@@ -45,7 +45,7 @@
           "time": "19:30",
           "title": "Dinner at The Witchery by the Castle",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "352 Castlehill, Edinburgh EH1 2NF",
           "highlightNote": "Gothic candlelit restaurant at the foot of the castle. Scottish classics done brilliantly.",
           "expandedNote": "Reservation under Malda, party of 2. Dress smart casual. Known for Scottish beef, game, and excellent whisky list. Book the Witchery Suite if you fancy the full experience. ~£80-100pp with wine."
@@ -65,7 +65,7 @@
           "time": "09:00",
           "title": "Edinburgh Castle",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Castlehill, Edinburgh EH1 2NG",
           "highlightNote": "The crown jewels of Scotland and the One O'Clock Gun. Allow 2–3 hours.",
           "expandedNote": "Pre-booked timed entry — check email for time slot confirmation. Entry includes: Scottish Crown Jewels, Stone of Destiny, Great Hall, and War Memorial. The One O'Clock Gun fires daily except Sunday. Audio guide recommended (£4 extra)."
@@ -75,7 +75,7 @@
           "time": "13:00",
           "title": "Lunch at Deacon Brodie's Tavern",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "435 Lawnmarket, Edinburgh EH1 2NT",
           "highlightNote": "Classic Edinburgh pub on the Royal Mile. Great pies and local ales.",
           "expandedNote": "Named after the real Deacon Brodie who inspired Jekyll & Hyde. No reservation needed at lunch — just walk in. Try the Cullen skink (smoked haddock soup) or scotch pie."
@@ -85,7 +85,7 @@
           "time": "14:30",
           "title": "Arthur's Seat Hike",
           "category": "hiking",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Holyrood Park, Edinburgh EH8 8HG",
           "highlightNote": "Extinct volcano with panoramic views of the whole city. About 2 hours round trip.",
           "expandedNote": "Take the Piper's Walk route from St Margaret's Loch — moderately steep but manageable. Wear proper shoes and layers. Summit is 251m. Views extend to Fife on a clear day. Often windy at the top."
@@ -95,7 +95,7 @@
           "time": "19:00",
           "title": "Scotch Whisky Experience Tour",
           "category": "tour",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "354 Castlehill, Edinburgh EH1 2NE",
           "highlightNote": "Barrel ride through whisky production + guided tasting of 4 regional styles.",
           "expandedNote": "Silver Tour booked — includes tasting of 4 whiskies (Highland, Speyside, Islay, Lowland). Duration approx 75 minutes. Great primer before the distillery visits later in the trip. Book the Gold Tour upgrade on arrival if spots available — includes rare dram."
@@ -115,7 +115,7 @@
           "time": "09:00",
           "title": "Check out & drive to Loch Lomond",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A82, Loch Lomond, G83",
           "highlightNote": "~1.5 hour drive northwest. Take the scenic A82 along the loch's western shore.",
           "expandedNote": "Route: Edinburgh → M9 → A811 → A82. The A82 hugs the western shore of Loch Lomond — spectacular. Stop at Luss village en route (very picturesque). Avoid Drumkinnon Tower car park on weekends — full by 10am."
@@ -125,7 +125,7 @@
           "time": "11:30",
           "title": "Luss Village & Lochside Walk",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Luss, Loch Lomond, G83 8NY",
           "highlightNote": "The prettiest village on the loch. Rose-covered cottages, pebble beach, mountain views.",
           "expandedNote": "Free to visit. Short walk along the beach to the old pier. The village was used as a filming location for the Scottish TV series Take the High Road. Tearoom in the village for coffee and scones."
@@ -135,7 +135,7 @@
           "time": "14:00",
           "title": "Check in — Cameron House",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Cameron House, Loch Lomond, G83 8QZ",
           "highlightNote": "5-star loch-front resort. Spa, boat trips, and stunning views.",
           "expandedNote": "Confirmation: CH-2026-MALDA. Check in from 15:00. Spa passes included with room. On-site marina with boat hire available. Restaurant reservations recommended — book at check-in. Room: Loch View Deluxe."
@@ -155,7 +155,7 @@
           "time": "19:30",
           "title": "Dinner at Boat House Restaurant",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Cameron House Marina, Loch Lomond G83 8QZ",
           "highlightNote": "Lochside dining with views straight across the water. Fresh Scottish seafood.",
           "expandedNote": "Reservation at Cameron House Boat House. Dress smart casual. Known for local langoustines, venison, and an excellent gin selection. Ask the sommelier for a Scottish craft wine pairing."
@@ -175,7 +175,7 @@
           "time": "08:30",
           "title": "Drive north to Glencoe",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A82, Glencoe, PH49 4HX",
           "highlightNote": "One of Scotland's most dramatic drives — around 1.5 hours through the Highland scenery.",
           "expandedNote": "Route: Cameron House → A82 north through Tyndrum and Bridge of Orchy. The Rannoch Moor stretch is bleak and otherworldly — plan a stop at the viewpoint before descending into Glencoe. Stop at the Glencoe Visitor Centre to orient."
@@ -185,7 +185,7 @@
           "time": "10:30",
           "title": "Glencoe Visitor Centre",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glencoe Visitor Centre, PH49 4LA",
           "highlightNote": "Free NTS visitor centre with exhibition on the 1692 Glencoe Massacre.",
           "expandedNote": "Run by National Trust for Scotland. Excellent 30-min exhibition on the Glencoe Massacre and the history of the glen. Good maps for walks. Café on site. NTS members get free entry — worth checking membership."
@@ -195,7 +195,7 @@
           "time": "12:00",
           "title": "Three Sisters Ridge Walk",
           "category": "hiking",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glen Coe Viewpoint Layby, A82, PH49 4HX",
           "highlightNote": "Iconic Glencoe view — the three rock buttresses with the valley below. 4-hour return.",
           "expandedNote": "Park at the large layby on the A82 (free). Follow the path up to Coire Gabhail (The Lost Valley) for a less strenuous option — beautiful hidden valley between the Sisters. Full ridge walk is challenging — grade 3. Bring waterproofs and navigation — conditions change rapidly."
@@ -205,7 +205,7 @@
           "time": "17:00",
           "title": "Check in — Glencoe Inn",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glencoe, PH49 4HT",
           "highlightNote": "Cosy traditional inn with log fires and great local whisky selection.",
           "expandedNote": "Confirmation: GI-2026-MALDA. Simple but atmospheric Highland pub with rooms. Dog-friendly. Good base for walkers. Bar meals available until 9pm — no need to dress up."
@@ -215,7 +215,7 @@
           "time": "19:00",
           "title": "Dinner at Glencoe Inn Bar",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glencoe Inn, Glencoe PH49 4HT",
           "highlightNote": "Hearty Scottish pub food after a big hike. Venison stew and whisky mac recommended.",
           "expandedNote": "In-house dining. Menu changes daily — always haggis, neeps & tatties, and local game. Ask the landlord for a dram of Glencoe 8 Year Old — distilled nearby. Atmosphere is excellent on a dark October evening."
@@ -235,7 +235,7 @@
           "time": "07:30",
           "title": "Ben Nevis Summit Attempt",
           "category": "hiking",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Ben Nevis Visitor Centre, Achintee Rd, Fort William PH33 6TE",
           "highlightNote": "UK's highest peak at 1,345m. Full day hike — 8-10 hours return via Tourist Track.",
           "expandedNote": "Start early — summit often clouds over by midday. Mountain Track (Tourist Route) from Visitor Centre: 17km return, 1,350m elevation gain. Bring: waterproofs, warm layers, food, 2L water, map. Check Mountain Weather Scotland forecast morning of. Summit marker is a cairn and emergency shelter."
@@ -245,7 +245,7 @@
           "time": "17:00",
           "title": "Check in — Inverlochy Castle",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Torlundy, Fort William PH33 6SN",
           "highlightNote": "Victorian castle hotel in stunning mountain setting. A genuine treat after the big hike.",
           "expandedNote": "Confirmation: IC-2026-MALDA. One of Scotland's finest country house hotels. Set on 500 acres. Dinner included (house dining). Dress formally for dinner. In-room whisky decanter complimentary. Mountain views from room."
@@ -255,7 +255,7 @@
           "time": "19:30",
           "title": "Dinner at Inverlochy Castle Dining Room",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Inverlochy Castle, Torlundy, Fort William PH33 6SN",
           "highlightNote": "Fine dining with Highland produce. Jacket required. Queen Victoria once stayed here.",
           "expandedNote": "4-course tasting menu. Highland beef, West Coast seafood, and game in season. Award-winning wine cellar. Dress: jacket and collared shirt. A wonderful reward after summiting Ben Nevis."
@@ -275,7 +275,7 @@
           "time": "09:00",
           "title": "Drive to Isle of Skye via Kyle of Lochalsh",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A87, Kyle of Lochalsh, IV40 8AZ",
           "highlightNote": "2.5-hour drive through stunning Glen Shiel and Five Sisters of Kintail.",
           "expandedNote": "Route: Fort William → A82 → A87 → Skye Bridge. Toll-free since 2004. Stop at the Eilean Donan Castle viewpoint on the A87 — one of the most photographed castles in Scotland. Worth 30 mins at the castle itself."
@@ -295,7 +295,7 @@
           "time": "14:00",
           "title": "Cross Skye Bridge & arrive on island",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Skye Bridge, Kyle of Lochalsh IV40",
           "highlightNote": "The moment you cross onto Skye — a genuinely exciting feeling.",
           "expandedNote": "Pull over at the Skye Bridge viewpoint for photos. The bridge opened in 1995. Portree is the 'capital' of Skye — stop here for supplies if needed before heading to Sligachan."
@@ -305,7 +305,7 @@
           "time": "15:30",
           "title": "Check in — Sligachan Hotel",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Sligachan, Isle of Skye IV47 8SW",
           "highlightNote": "Legendary Highland hotel at the base of the Black Cuillins. Walkers' paradise.",
           "expandedNote": "Confirmation: SH-2026-MALDA. One of the most famous mountain hotels in Scotland. Attached microbrewery. Stunning views of the Cuillin ridge from every window. Bar food available all day. Allt Dearg waterfall walk from the hotel is 1 hour — do it before dinner."
@@ -315,7 +315,7 @@
           "time": "19:00",
           "title": "Dinner at Seumas' Bar, Sligachan",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Sligachan Hotel, Isle of Skye IV47 8SW",
           "highlightNote": "Classic Highland bar with own-brewed ales and Skye seafood. Hugely atmospheric.",
           "expandedNote": "Try the Sligachan ales — brewed on site. Cullen skink is excellent here. Photos of climbers on the Cuillins cover every wall. Lively in the evening with hikers sharing tales."
@@ -335,7 +335,7 @@
           "time": "09:00",
           "title": "Old Man of Storr Hike",
           "category": "hiking",
-          "bookingStatus": "timed-entry",
+          "bookingStatus": "booked-timed",
           "address": "Old Man of Storr Car Park, Portree IV51 9HX",
           "highlightNote": "Skye's most iconic rock pinnacle — a 2-hour return hike with extraordinary views.",
           "expandedNote": "Timed entry parking system — book a slot via VisitScotland website before travel. Car park fills extremely early in season. Trail is well-marked but steep in places. The pinnacle itself is 49m tall. Views from the top extend to the mainland on clear days."
@@ -345,7 +345,7 @@
           "time": "12:00",
           "title": "Portree Harbour & Lunch",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Portree Harbour, Isle of Skye IV51 9DE",
           "highlightNote": "The colourful harbour town of Skye. Lunch at Café Arriba for the best views.",
           "expandedNote": "Portree is Skye's main town. Coloured buildings around the harbour are very photogenic. Café Arriba on Quay Brae has the best views and excellent seafood chowder. Nearby: Skye Soap Co for gifts, and the Aros Centre for local info."
@@ -355,7 +355,7 @@
           "time": "14:00",
           "title": "Fairy Pools",
           "category": "activity",
-          "bookingStatus": "timed-entry",
+          "bookingStatus": "booked-timed",
           "address": "Fairy Pools, Glenbrittle, Isle of Skye IV47 8TA",
           "highlightNote": "Crystal-clear mountain pools in the Cuillin foothills. Magical in autumn colours.",
           "expandedNote": "Timed entry parking — book in advance. About 45-minute walk to the first pools, 1.5 hours for the full trail. The water is incredibly clear and a striking blue-green. Some people wild swim here even in October — very cold! Waterproof boots recommended as the path can be boggy."
@@ -365,7 +365,7 @@
           "time": "17:00",
           "title": "Talisker Distillery Tour",
           "category": "tour",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Carbost, Isle of Skye IV47 8SR",
           "highlightNote": "Skye's only distillery — famous peaty, maritime whisky. Tour includes 3 tastings.",
           "expandedNote": "Tour booked: Classic Distillery Experience. 50 minutes + tasting. Talisker 10 Year is the flagship — coastal and peaty with a long warming finish. The Distillers Edition is excellent. Gift shop has distillery exclusives not sold elsewhere. No children under 8 in production areas."
@@ -375,7 +375,7 @@
           "time": "19:30",
           "title": "Dinner at The Three Chimneys",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Colbost, Dunvegan, Isle of Skye IV55 8ZT",
           "highlightNote": "One of Scotland's most celebrated restaurants. 30 min from Sligachan but worth every mile.",
           "expandedNote": "Reservation under Malda, party of 2. Dress smart. Known as one of the top 50 restaurants in the world. 6-course tasting menu ~£120pp. All produce sourced from Skye and the surrounding islands. Book the Showcase menu — best representation of what they do. Drive back carefully on single-track roads."
@@ -395,7 +395,7 @@
           "time": "09:00",
           "title": "Drive Skye to Inverness",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A82, Inverness, IV2 3BF",
           "highlightNote": "3.5-hour scenic drive via the Great Glen and Loch Ness. Take the southern shore.",
           "expandedNote": "Route: Sligachan → A87 → A82 through Fort Augustus and along the southern shore of Loch Ness. Fort Augustus is worth a 30-minute stop — great views of the canal locks lifting boats between loch levels."
@@ -415,7 +415,7 @@
           "time": "15:30",
           "title": "Check in — Rocpool Reserve",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "14 Culduthel Rd, Inverness IV2 4AG",
           "highlightNote": "Boutique luxury hotel on the banks of the River Ness. Very design-forward.",
           "expandedNote": "Confirmation: RR-2026-MALDA. Boutique hotel with individually designed rooms. Albert Roux-trained kitchen. Cocktail bar is excellent. Parking on site. Located 10 minutes walk from city centre."
@@ -425,7 +425,7 @@
           "time": "17:30",
           "title": "Inverness City Centre walk",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Inverness City Centre, IV1 1DZ",
           "highlightNote": "Walk the river banks and explore the Victorian Market. A relaxed evening in the Highland capital.",
           "expandedNote": "Inverness Castle (currently being renovated) has good views from the grounds. The Victorian Market arcade is charming. Walk along the River Ness to the Ness Islands — connected by footbridges, very peaceful in autumn."
@@ -435,7 +435,7 @@
           "time": "19:30",
           "title": "Dinner at Rocpool Restaurant",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "1 Ness Walk, Inverness IV3 5NE",
           "highlightNote": "Highly regarded modern Scottish bistro on the river. Lively and well-priced for the quality.",
           "expandedNote": "Separate from the hotel — same ownership but different venue. Extremely popular so reservation essential. Bistro-style modern Scottish food. Known for beef fillet, pan-seared scallops, and inventive desserts. ~£60pp with wine."
@@ -455,7 +455,7 @@
           "time": "09:00",
           "title": "Drive to Speyside via Cairngorms",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A9, Cairngorms National Park, PH21 1NX",
           "highlightNote": "Glorious 1.5-hour drive through the UK's largest national park in full autumn colour.",
           "expandedNote": "Route: Inverness → A9 south → B9152 through Aviemore → B970 → A95 east to Speyside. Stop at Loch an Eilein in the Cairngorms — tiny island castle in a woodland loch, 30-minute walk round. Aviemore is a good coffee stop."
@@ -465,7 +465,7 @@
           "time": "11:00",
           "title": "Glenfarclas Distillery Tour",
           "category": "tour",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Ballindalloch, Speyside AB37 9BD",
           "highlightNote": "Family-owned distillery since 1865. Some of the finest Speyside sherry-cask whisky.",
           "expandedNote": "Booked: Heritage Tour — includes private warehouse visit and tasting of 6 whiskies from different ages and casks. Glenfarclas 105 cask strength is remarkable. Family has run it for 6 generations. No gift wrap needed — buy a bottle and they ship internationally. Budget ~£40pp for tour + purchases."
@@ -475,7 +475,7 @@
           "time": "13:30",
           "title": "Lunch at The Highlander Inn, Craigellachie",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "10 Victoria St, Craigellachie AB38 9SR",
           "highlightNote": "Legendary whisky pub — 320 malts behind the bar. Simple pub food, extraordinary whisky list.",
           "expandedNote": "No reservation needed for lunch. Bar food is simple and good — pies, soups, toasties. The reason to come is the whisky list. Ask the staff for a recommendation — they genuinely know their stuff. A pilgrimage stop for any whisky lover."
@@ -485,7 +485,7 @@
           "time": "15:00",
           "title": "Macallan Distillery Experience",
           "category": "tour",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Easter Elchies, Charlestown of Aberlour AB38 9RX",
           "highlightNote": "The most spectacular distillery building in Scotland. Architecture alone is worth the visit.",
           "expandedNote": "The new Macallan distillery (opened 2018) is a stunning curved grass-roofed building by Rogers Stirk Harbour. Macallan Distillery Experience booked — 75 minutes, guided tour and 2 tastings. The whisky is world-class. The Double Cask 12 Year is excellent value; the Estate Reserve is a distillery exclusive."
@@ -495,7 +495,7 @@
           "time": "17:00",
           "title": "Check in — Craigellachie Hotel",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Victoria St, Craigellachie AB38 9SR",
           "highlightNote": "Victorian hotel in the heart of Speyside whisky country. Legendary whisky bar attached.",
           "expandedNote": "Confirmation: CR-2026-MALDA. Classic Scottish Victorian hotel right in the village. The Quaich Bar has 800+ single malts — one of the largest collections in the world. Dinner at the Ben Aigan restaurant on site. A true whisky pilgrim's base."
@@ -505,7 +505,7 @@
           "time": "19:30",
           "title": "Dinner at Ben Aigan Restaurant",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Craigellachie Hotel, Victoria St AB38 9SR",
           "highlightNote": "Seasonal Scottish produce with Speyside flair. Book the whisky pairing menu.",
           "expandedNote": "In-house dining. Request the Whisky Pairing Dinner if available — each course matched with a dram. Grouse, venison, and Aberdeen Angus are reliably excellent. Then head to the Quaich Bar and work through the shelf."
@@ -525,7 +525,7 @@
           "time": "09:00",
           "title": "Drive to Stonehaven via Balmoral",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A93, Balmoral Castle, AB35 5TB",
           "highlightNote": "Drive the Royal Deeside road past Balmoral and Braemar. Stunning autumn colours.",
           "expandedNote": "Route: Craigellachie → A95 → A939 → A93 (Royal Deeside). Stop briefly at Balmoral Estate — you can walk the grounds when the Royal Family is not in residence. Braemar Castle is a short detour, worth 45 minutes."
@@ -545,7 +545,7 @@
           "time": "14:00",
           "title": "Stonehaven Harbour & Fish & Chips",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Stonehaven Harbour, AB39 2JU",
           "highlightNote": "Pretty harbour town — get the best fish & chips in Scotland at The Bay.",
           "expandedNote": "The Bay Fish & Chips has won awards for being the most sustainable fish and chip shop in the UK. Eat outside overlooking the harbour. Try the local haddock — not cod. Open from noon. Very casual — no booking."
@@ -555,7 +555,7 @@
           "time": "15:30",
           "title": "Check in — Marcliffe Hotel",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "North Deeside Rd, Pitfodels, Aberdeen AB15 9YA",
           "highlightNote": "Aberdeen's finest country house hotel — elegant, comfortable, and close to the city.",
           "expandedNote": "Confirmation: MH-2026-MALDA. Country house hotel on 8 acres just west of Aberdeen city centre. Excellent in-house restaurant. Evening cocktails in the conservatory lounge. Good place to relax after the long drive days."
@@ -565,7 +565,7 @@
           "time": "19:30",
           "title": "Dinner at The Conservatory, Marcliffe",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "North Deeside Rd, Pitfodels, Aberdeen AB15 9YA",
           "highlightNote": "Rosette-awarded restaurant — Aberdeen Angus beef is spectacular here.",
           "expandedNote": "In-house fine dining. Aberdeen Angus sirloin is the dish to order. Good seafood from the North Sea too. Scottish cheeseboard is excellent — Mull Cheddar, Isle of Arran Brie, and Strathdon Blue. Ask for the port pairing with cheese."
@@ -585,7 +585,7 @@
           "time": "09:00",
           "title": "Drive Aberdeen to St Andrews",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A92, St Andrews, KY16 9SF",
           "highlightNote": "2-hour coastal drive through the East Neuk of Fife. Stop at Crail for photos.",
           "expandedNote": "Route: Aberdeen → A90 → A92 through Arbroath and the East Neuk fishing villages. Stop at Crail and Pittenweem — the most picturesque fishing villages on the Fife coast. Grab coffee and a pastry at the Crail Food Company."
@@ -595,7 +595,7 @@
           "time": "12:00",
           "title": "St Andrews Cathedral ruins & Castle",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "The Pends, St Andrews KY16 9QL",
           "highlightNote": "Haunting ruins of what was once the largest cathedral in Scotland.",
           "expandedNote": "Entry to Cathedral grounds is free. Castle and museum ~£7. St Andrews was once the ecclesiastical capital of Scotland. The ruins are dramatic especially against an autumn sky. The church tower can be climbed for excellent sea views. The castle has a rare underground mine and counter-mine tunnel."
@@ -605,7 +605,7 @@
           "time": "13:30",
           "title": "Lunch at The Seafood Ristorante",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "The Scores, St Andrews KY16 9AS",
           "highlightNote": "Glass-fronted restaurant perched over the sea cliff. Lobster, langoustines, and Crail crab.",
           "expandedNote": "Reservation under Malda. Stunning sea views from every table. Lunch is more affordable than dinner. Known for the plateau de fruits de mer — showstopper for two. Also excellent pasta and risotto. ~£50pp for lunch with a glass of white."
@@ -615,7 +615,7 @@
           "time": "15:00",
           "title": "Walk the Old Course & West Sands Beach",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "West Sands Beach, St Andrews KY16 9XJ",
           "highlightNote": "The beach from Chariots of Fire. Long, wild, and beautiful in October light.",
           "expandedNote": "Free and open. West Sands is a 2km stretch of beach right next to the Old Course golf links. The Swilcan Bridge on the 18th hole is a pilgrimage for golf fans — you can walk across it. St Andrews Links is the home of golf."
@@ -625,7 +625,7 @@
           "time": "16:30",
           "title": "Check in — The Old Course Hotel",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Old Station Road, St Andrews KY16 9SP",
           "highlightNote": "Legendary golf hotel overlooking the 17th hole of the Old Course. Landmark property.",
           "expandedNote": "Confirmation: OCH-2026-MALDA. One of Scotland's most famous hotels. Views over the Old Course from the Road Hole bar. Spa available. Ask for a room overlooking the course. The Jigger Inn pub is attached — excellent for a pint."
@@ -635,7 +635,7 @@
           "time": "19:30",
           "title": "Dinner at Rocca Restaurant, Old Course Hotel",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Old Station Road, St Andrews KY16 9SP",
           "highlightNote": "Fine dining with views over the 18th fairway as the sun sets. Italian-Scottish fusion.",
           "expandedNote": "Reservation confirmed. Smart dress required. The tasting menu is the best option — highlights what's in season. Request a window table for sunset views over the course. Excellent wine list."
@@ -655,7 +655,7 @@
           "time": "09:00",
           "title": "Drive to Stirling",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "M90, Stirling, FK8 1EJ",
           "highlightNote": "1.5-hour drive from St Andrews. Stirling is Scotland's most strategically important historic city.",
           "expandedNote": "Route: St Andrews → M90 → M9 → Stirling. Easy motorway drive. Stirling is at the gateway between the Highlands and Lowlands — almost every major Scottish battle was fought within sight of it."
@@ -665,7 +665,7 @@
           "time": "10:30",
           "title": "Stirling Castle",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Castle Esplanade, Stirling FK8 1EJ",
           "highlightNote": "Arguably the finest castle in Scotland — Mary Queen of Scots was crowned here.",
           "expandedNote": "Pre-booked timed entry. Allow 2-3 hours. The restored Royal Palace is extraordinary — the Stirling Heads room and great tapestries are highlights. Chapel Royal and Great Hall also impressive. Views from the ramparts stretch from Ben Lomond to the Firth of Forth."
@@ -675,7 +675,7 @@
           "time": "13:00",
           "title": "The Smithy Coffee Shop, Stirling",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "5 Broad St, Stirling FK8 1EE",
           "highlightNote": "Local favourite in the old town — excellent lunches and home baking.",
           "expandedNote": "Just below the castle on Broad Street. Excellent soup, doorstep sandwiches, and scones. Relaxed and friendly — no reservation needed. Good place to review the afternoon plan with coffee."
@@ -685,7 +685,7 @@
           "time": "14:30",
           "title": "Drive through the Trossachs",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "A821, The Trossachs, FK17 8HZ",
           "highlightNote": "Scotland's 'Little Highlands' — gorgeous loch and forest scenery close to the central belt.",
           "expandedNote": "Route: Stirling → A84 → A821 through the Trossachs National Park to Callander. Stop at Loch Katrine — Rob Roy country. The SS Sir Walter Scott steamer runs cruises until end of October — worth checking if you have time."
@@ -695,7 +695,7 @@
           "time": "16:30",
           "title": "Check in — Roman Camp Country House",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Main St, Callander FK17 8BG",
           "highlightNote": "17th century pink-painted country house hotel in a secret riverside garden. Very special.",
           "expandedNote": "Confirmation: RC-2026-MALDA. Hidden behind a pink gate on the main street of Callander. 20-acre grounds with river frontage. Log fires in the drawing room. The hotel was originally a Roman hunting lodge. Dog-friendly. No spa but very calming atmosphere."
@@ -705,7 +705,7 @@
           "time": "19:00",
           "title": "Dinner at Roman Camp Restaurant",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Main St, Callander FK17 8BG",
           "highlightNote": "2 AA Rosette dining in a beautiful candlelit dining room. Scottish seasonal menu.",
           "expandedNote": "In-house restaurant. Reservation essential — only 16 covers. Tasting menu available Friday-Saturday but à la carte Mon-Thurs. October means grouse, partridge, and venison. Excellent Scottish cheese selection. Very peaceful end to a busy day."
@@ -725,7 +725,7 @@
           "time": "09:30",
           "title": "Drive Callander to Glasgow",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "M80, Glasgow, G1 1DH",
           "highlightNote": "1-hour easy drive south to Glasgow. Drop the car at the hotel — you won't need it in the city.",
           "expandedNote": "Route: Callander → A84 → M80 → M8 into Glasgow city centre. Hotel has valet parking — ask about overnight rate. No need for the car in Glasgow for the rest of the trip. Return the rental tomorrow morning."
@@ -735,7 +735,7 @@
           "time": "11:00",
           "title": "Kelvingrove Art Gallery",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Argyle St, Glasgow G3 8AG",
           "highlightNote": "One of the UK's best free museums — Salvador Dali's Christ of St John of the Cross lives here.",
           "expandedNote": "Free entry. The Dali painting is extraordinary. Also: Dutch Masters, Charles Rennie Mackintosh room, Spitfire hanging from the ceiling. Allow 2 hours minimum. Café on the ground floor for a break. The building itself (1901) is spectacular — look at the rear entrance."
@@ -745,7 +745,7 @@
           "time": "13:30",
           "title": "Lunch at The Ubiquitous Chip",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "12 Ashton Lane, Glasgow G12 8SJ",
           "highlightNote": "Glasgow's most famous restaurant — 50 years in a cobbled lane. Scottish produce at its finest.",
           "expandedNote": "Reservation under Malda. The brasserie upstairs is more casual and affordable than the main restaurant downstairs. Known for haggis bons bons, venison, and outstanding Scottish cheeses. In the lovely West End's Ashton Lane — explore the lane before and after lunch."
@@ -755,7 +755,7 @@
           "time": "15:30",
           "title": "Check in — Kimpton Blythswood Square",
           "category": "accommodation",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "11 Blythswood Square, Glasgow G2 4AD",
           "highlightNote": "Glasgow's finest hotel — in a restored Georgian townhouse around an elegant city square.",
           "expandedNote": "Confirmation: KB-2026-MALDA. Elegant city hotel in a beautiful Georgian square. Spa downstairs — book a treatment (champagne afternoon tea in the spa is a treat). Cocktail bar is one of Glasgow's best. Central location — everything walkable."
@@ -765,7 +765,7 @@
           "time": "17:00",
           "title": "Merchant City & Glasgow Cathedral",
           "category": "activity",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Castle St, Glasgow G4 0QZ",
           "highlightNote": "The medieval heart of Glasgow. The Cathedral is stunning and largely intact.",
           "expandedNote": "Glasgow Cathedral is free and one of the most complete medieval churches in Scotland. Adjacent Necropolis is Glasgow's Victorian garden cemetery on a hill — extraordinary. Merchant City nearby has great independent shops and galleries."
@@ -775,7 +775,7 @@
           "time": "19:30",
           "title": "Dinner at Ox and Finch",
           "category": "restaurant",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "920 Sauchiehall St, Glasgow G3 7TF",
           "highlightNote": "Glasgow's best sharing plates restaurant — modern, lively, and superb quality.",
           "expandedNote": "Reservation under Malda. Small plates to share — order 4-5 per person. Known for the cured meats, langoustines, and beef tartare. Wine list is thoughtfully sourced. Very lively atmosphere — Glasgow at its best. ~£60pp with wine."
@@ -795,7 +795,7 @@
           "time": "08:00",
           "title": "Return rental car",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Arnold Clark, 84 Lancefield St, Glasgow G3 8JE",
           "highlightNote": "Return the rental before 10am to avoid extra day charge.",
           "expandedNote": "Arnold Clark Glasgow Lancefield Street branch. Reference: AC-SCOT-2026. Full tank on return. Note any scratches on the return form. Take photos of the car before handover. Uber or taxi back to hotel: ~10 minutes."
@@ -805,7 +805,7 @@
           "time": "09:30",
           "title": "Breakfast & final Glasgow wander",
           "category": "leisure",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Buchanan Street, Glasgow G1 2GF",
           "highlightNote": "Last morning — walk Buchanan Street and grab breakfast at Paesano for a Scottish farewell.",
           "expandedNote": "Paesano Pizza on Great Western Road does an excellent morning roll and coffee. Buchanan Street is Glasgow's main shopping street — good for last minute gifts. The Lighthouse (Charles Rennie Mackintosh's building) is a free visit and has a rooftop view of Glasgow."
@@ -815,7 +815,7 @@
           "time": "12:00",
           "title": "Check out & transfer to Glasgow Airport",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glasgow Airport, Paisley PA3 2SW",
           "highlightNote": "About 20 minutes from city centre by taxi or Paisley Canal train.",
           "expandedNote": "Check out by 12:00 — ask hotel to hold luggage if needed. Taxi from Blythswood Square to airport: ~£25 and 20-25 mins. Train: Glasgow Central → Paisley Canal is 20 mins, then short walk. Allow 2.5 hours for international departure."
@@ -825,7 +825,7 @@
           "time": "15:00",
           "title": "Depart Glasgow Airport",
           "category": "travel",
-          "bookingStatus": "booked",
+          "bookingStatus": "booked-allday",
           "address": "Glasgow Airport, Paisley PA3 2SW",
           "highlightNote": "Scotland done. 14 incredible days in the bag.",
           "expandedNote": "Flight departure: check airline confirmation for gate. Glasgow Airport is compact — 45 minutes from arrival to gate is comfortable. Final duty-free whisky purchase opportunity! The trip ends here but the memories last forever."

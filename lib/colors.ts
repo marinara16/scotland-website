@@ -63,7 +63,8 @@ export const CATEGORY_CONFIG: Record<
 };
 
 export const BOOKING_STATUS_CONFIG = {
-  booked: { icon: '✅', label: 'Booked / Free entry' },
-  'tickets-needed': { icon: '🔴', label: 'Tickets still needed' },
-  'timed-entry': { icon: '🕐', label: 'Timed entry ticket' },
+  'booked-timed': { icon: '🕐', label: 'Booked (Timed Entry)' },
+  'booked-allday': { icon: '✅', label: 'Booked (All Day)' },
+  'free': { icon: '🆓', label: 'Free Entry' },
+  'tickets-needed': { icon: '🔴', label: 'Tickets Still Needed' },
 };
