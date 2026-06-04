@@ -109,6 +109,16 @@
           "address": "Chambers St, Edinburgh EH1 1JF, United Kingdom",
           "highlightNote": "Scottish History, Science, Nature, World Cultures",
           "expandedNote": ""
+        },
+        {
+          "id": "day-3-s1780534469427",
+          "time": "15:00",
+          "title": "Arthur's Seat Hike",
+          "category": "hiking",
+          "bookingStatus": "free",
+          "address": "XR2J+F5, Edinburgh EH8 8AZ, United Kingdom",
+          "highlightNote": "Optional depending on the weather ",
+          "expandedNote": ""
         }
       ]
     },
