@@ -192,9 +192,9 @@ function StopItem({
           </div>
         )}
 
-        <button
+        <div
           onClick={onToggle}
-          className={`w-full text-left bg-white rounded-xl p-4 transition-all active:scale-[0.99] ${
+          className={`w-full text-left bg-white rounded-xl p-4 transition-all cursor-pointer active:scale-[0.99] ${
             stop.flag ? 'border border-red-200 hover:border-red-300' : 'border border-stone-150 hover:border-stone-300'
           }`}
         >
@@ -288,9 +288,9 @@ function StopItem({
               )}
             </div>
           )}
-        </button>
+        </div>
 
-        {/* Flag form — outside the card button so keyboard input works correctly */}
+        {/* Flag form — outside the card div */}
         {isExpanded && !stop.flag && showFlagForm && (
           <div className="mt-1.5 bg-red-50 border border-red-200 rounded-xl p-3 space-y-2">
             <textarea
