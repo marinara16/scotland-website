@@ -122,6 +122,56 @@ export default function MapView({ days }: Props) {
       map.on('load', () => {
         setLoaded(true);
 
+        // ── Overall trip route ──────────────────────────────────────
+        // Edinburgh → Inverness → Drumnadrochit → Dornie → Portree →
+        // Fort William → Glencoe → Luss → Glasgow → Edinburgh
+        const ROUTE_WAYPOINTS: [number, number][] = [
+          [-3.1883, 55.9533], // Edinburgh
+          [-4.2247, 57.4778], // Inverness
+          [-4.4577, 57.3286], // Drumnadrochit
+          [-5.5148, 57.2743], // Dornie (Eilean Donan)
+          [-6.1932, 57.4148], // Portree, Skye
+          [-5.1031, 56.8198], // Fort William
+          [-5.1020, 56.6800], // Glencoe
+          [-4.6279, 56.0232], // Luss, Loch Lomond
+          [-4.2518, 55.8617], // Glasgow
+          [-3.1883, 55.9533], // Edinburgh (return)
+        ];
+
+        const coordStr = ROUTE_WAYPOINTS.map((c) => c.join(',')).join(';');
+        const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+        fetch(
+          `https://api.mapbox.com/directions/v5/mapbox/driving/${coordStr}?geometries=geojson&overview=full&access_token=${token}`
+        )
+          .then((r) => r.json())
+          .then((data) => {
+            const geometry = data.routes?.[0]?.geometry;
+            if (!geometry) return;
+            map.addSource('trip-route', { type: 'geojson', data: { type: 'Feature', geometry, properties: {} } });
+            // Soft background line
+            map.addLayer({
+              id: 'trip-route-bg',
+              type: 'line',
+              source: 'trip-route',
+              layout: { 'line-join': 'round', 'line-cap': 'round' },
+              paint: { 'line-color': '#ffffff', 'line-width': 5, 'line-opacity': 0.8 },
+            });
+            // Dashed coloured line on top
+            map.addLayer({
+              id: 'trip-route-line',
+              type: 'line',
+              source: 'trip-route',
+              layout: { 'line-join': 'round', 'line-cap': 'round' },
+              paint: {
+                'line-color': '#1e3a5f',
+                'line-width': 2.5,
+                'line-dasharray': [2, 3],
+                'line-opacity': 0.7,
+              },
+            });
+          })
+          .catch(() => {}); // fail silently — route is decorative
+
         const features: GeoJSON.Feature<GeoJSON.Point>[] = [];
         days.forEach((day) => {
           day.stops.forEach((stop) => {

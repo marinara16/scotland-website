@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { Day, Stop } from '@/lib/types';
 import { CATEGORY_CONFIG, BOOKING_STATUS_CONFIG } from '@/lib/colors';
 
@@ -33,6 +33,12 @@ export default function DayDetail({ day, allDays, onBack, onSelectDay }: Props) 
   const [expandedStops, setExpandedStops] = useState<Set<string>>(new Set());
   const [stops, setStops] = useState<Stop[]>(day.stops);
   const date = new Date(day.date + 'T00:00:00');
+
+  // Reset stops and expanded state when navigating to a different day
+  useEffect(() => {
+    setStops(day.stops);
+    setExpandedStops(new Set());
+  }, [day.id]);
 
   function toggleStop(id: string) {
     setExpandedStops((prev) => {
