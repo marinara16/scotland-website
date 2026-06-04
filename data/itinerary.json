@@ -70,7 +70,9 @@
           "bookingStatus": "free",
           "address": "14 Victoria St, Edinburgh EH1 2HG, UK",
           "highlightNote": "Colorful street that is full of shops, great for photos.",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.948655,
+          "lng": -3.192693
         },
         {
           "id": "day-2-s1780533097360",
