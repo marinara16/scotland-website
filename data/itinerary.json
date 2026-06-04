@@ -101,16 +101,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d3-s4",
-          "time": "16:00",
-          "title": "Loch Lomond Boat Trip",
-          "category": "tour",
-          "bookingStatus": "tickets-needed",
-          "address": "Cameron House Marina, Loch Lomond G83 8QZ",
-          "highlightNote": "1-hour private boat charter around the islands. Stunning in autumn light.",
-          "expandedNote": "Book at Cameron House marina on arrival — ask for the 'Islands & Inchcailloch' route. Cost approx £60 for private hire. Alternatively, Sweeney's Cruises run public departures from Balloch every 2 hours."
-        },
-        {
           "id": "d3-s5",
           "time": "19:30",
           "title": "Dinner at Boat House Restaurant",
