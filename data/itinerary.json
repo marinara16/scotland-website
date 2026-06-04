@@ -187,16 +187,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d8-s1",
-          "time": "09:00",
-          "title": "Drive Skye to Inverness",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A82, Inverness, IV2 3BF",
-          "highlightNote": "3.5-hour scenic drive via the Great Glen and Loch Ness. Take the southern shore.",
-          "expandedNote": "Route: Sligachan → A87 → A82 through Fort Augustus and along the southern shore of Loch Ness. Fort Augustus is worth a 30-minute stop — great views of the canal locks lifting boats between loch levels."
-        },
-        {
           "id": "d8-s2",
           "time": "12:30",
           "title": "Loch Ness & Urquhart Castle",
