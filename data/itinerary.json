@@ -375,10 +375,11 @@
           "category": "hiking",
           "bookingStatus": "free",
           "address": "FRXR+PJ Portree, United Kingdom",
-          "highlightNote": "",
+          "highlightNote": "~2 hrs total, rocky, slippery at times. ",
           "expandedNote": "",
           "lat": 57.412643,
-          "lng": -6.192316
+          "lng": -6.192316,
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/old-man-of-storr"
         }
       ]
     },
