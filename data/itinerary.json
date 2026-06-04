@@ -18,7 +18,9 @@
           "bookingStatus": "booked-allday",
           "address": "Edinburgh Airport, EH12 9DN",
           "highlightNote": "",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.944454,
+          "lng": -3.36122
         },
         {
           "id": "d1-s2",
@@ -28,7 +30,9 @@
           "bookingStatus": "booked-allday",
           "address": "19 - 21 George St, Edinburgh EH2 2PB, United Kingdom",
           "highlightNote": "",
-          "expandedNote": "Breakfast included. \nAMEX Confirmation code: #ZO-AX1044-06332, Hotel Confirmation #: 86812910"
+          "expandedNote": "Breakfast included. \nAMEX Confirmation code: #ZO-AX1044-06332, Hotel Confirmation #: 86812910",
+          "lat": 55.95411,
+          "lng": -3.19643
         }
       ]
     },
@@ -48,7 +52,9 @@
           "bookingStatus": "just-show-up",
           "address": "Edinburgh EH1 1QS, United Kingdom",
           "highlightNote": "Stress-free start, explore shops and nearby areas",
-          "expandedNote": "Places to visit: Victoria St. and Tron Kirk Market"
+          "expandedNote": "Places to visit: Victoria St. and Tron Kirk Market",
+          "lat": 55.94979,
+          "lng": -3.188708
         },
         {
           "id": "day-2-s1780533551200",
@@ -116,7 +122,9 @@
           "bookingStatus": "free",
           "address": "Chambers St, Edinburgh EH1 1JF, United Kingdom",
           "highlightNote": "Scottish History, Science, Nature, World Cultures",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.947831,
+          "lng": -3.188019
         },
         {
           "id": "day-3-s1780534469427",
@@ -265,7 +273,9 @@
           "bookingStatus": "just-show-up",
           "address": "Church St, Inverness IV1 1EY, United Kingdom",
           "highlightNote": "Browse for books inside a restored 17th-century church",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 57.479169,
+          "lng": -4.227124
         },
         {
           "id": "day-5-s1780536453937",
@@ -564,7 +574,9 @@
           "address": "A82, Ballachulish PH49 4HX, United Kingdom",
           "highlightNote": "Allow 1-2 hours",
           "expandedNote": "",
-          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-military-road-from-three-sisters-car-park"
+          "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-military-road-from-three-sisters-car-park",
+          "lat": 56.661445,
+          "lng": -4.916444
         },
         {
           "id": "day-10-s1780553906984",
@@ -766,7 +778,9 @@
           "bookingStatus": "none",
           "address": "Edinburgh Airport, EH12 9DN",
           "highlightNote": "",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.944454,
+          "lng": -3.36122
         },
         {
           "id": "day-14-s1780552457096",
@@ -776,7 +790,9 @@
           "bookingStatus": "booked-allday",
           "address": "Edinburgh Airport, EH12 9DN",
           "highlightNote": "",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.944454,
+          "lng": -3.36122
         }
       ]
     }
