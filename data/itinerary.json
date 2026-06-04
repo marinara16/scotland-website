@@ -309,6 +309,18 @@
           "expandedNote": "Reservation Number: 33418",
           "lat": 57.412929,
           "lng": -6.194617
+        },
+        {
+          "id": "day-6-s1780538228576",
+          "time": "14:00",
+          "title": "Eilean Donan Castle",
+          "category": "activity",
+          "bookingStatus": "tickets-needed",
+          "address": "Dornie, Kyle of Lochalsh IV40 8DX, United Kingdom",
+          "highlightNote": "Tickets are bought on site, 13 each.",
+          "expandedNote": "",
+          "lat": 57.28094,
+          "lng": -5.716215
         }
       ]
     },
