@@ -176,9 +176,6 @@ export default function MapView({ days }: Props) {
           });
         });
 
-        map.on('click', (e: mapboxgl.MapMouseEvent & { features?: mapboxgl.MapboxGeoJSONFeature[] }) => {
-          if (!e.features?.length) setSelected(null);
-        });
 
         map.on('mouseenter', 'stops-circles', () => {
           map.getCanvas().style.cursor = 'pointer';
