@@ -310,18 +310,7 @@
       "location": "Glasgow — Departure",
       "overnightHotel": "",
       "primaryCategory": "travel",
-      "stops": [
-        {
-          "id": "d14-s4",
-          "time": "15:00",
-          "title": "Depart Glasgow Airport",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "Glasgow Airport, Paisley PA3 2SW",
-          "highlightNote": "Scotland done. 14 incredible days in the bag.",
-          "expandedNote": "Flight departure: check airline confirmation for gate. Glasgow Airport is compact — 45 minutes from arrival to gate is comfortable. Final duty-free whisky purchase opportunity! The trip ends here but the memories last forever."
-        }
-      ]
+      "stops": []
     }
   ]
 }
