@@ -58,7 +58,9 @@
           "bookingStatus": "free",
           "address": "122 High St, Edinburgh EH1 1SG, United Kingdom",
           "highlightNote": "Local market with artists, good place for souvenirs. ",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.94998,
+          "lng": -3.18764
         },
         {
           "id": "day-2-s1780533794066",
