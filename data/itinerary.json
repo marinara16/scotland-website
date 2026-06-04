@@ -294,16 +294,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d12-s1",
-          "time": "09:00",
-          "title": "Drive to Stirling",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "M90, Stirling, FK8 1EJ",
-          "highlightNote": "1.5-hour drive from St Andrews. Stirling is Scotland's most strategically important historic city.",
-          "expandedNote": "Route: St Andrews → M90 → M9 → Stirling. Easy motorway drive. Stirling is at the gateway between the Highlands and Lowlands — almost every major Scottish battle was fought within sight of it."
-        },
-        {
           "id": "d12-s2",
           "time": "10:30",
           "title": "Stirling Castle",
