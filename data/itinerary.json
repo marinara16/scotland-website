@@ -178,16 +178,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d7-s3",
-          "time": "14:00",
-          "title": "Fairy Pools",
-          "category": "activity",
-          "bookingStatus": "booked-timed",
-          "address": "Fairy Pools, Glenbrittle, Isle of Skye IV47 8TA",
-          "highlightNote": "Crystal-clear mountain pools in the Cuillin foothills. Magical in autumn colours.",
-          "expandedNote": "Timed entry parking — book in advance. About 45-minute walk to the first pools, 1.5 hours for the full trail. The water is incredibly clear and a striking blue-green. Some people wild swim here even in October — very cold! Waterproof boots recommended as the path can be boggy."
-        },
-        {
           "id": "d7-s4",
           "time": "17:00",
           "title": "Talisker Distillery Tour",
