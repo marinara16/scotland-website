@@ -197,6 +197,18 @@
           "expandedNote": "Your reservation number is 62BYRGT86U35",
           "lat": 56.40072,
           "lng": -3.88879
+        },
+        {
+          "id": "day-4-s1780535716844",
+          "time": "16:30",
+          "title": "Depart for Inverness",
+          "category": "travel",
+          "bookingStatus": "free",
+          "address": "Inverness, UK",
+          "highlightNote": "~100 miles, ~2 hrs via A9",
+          "expandedNote": "",
+          "lat": 57.479012,
+          "lng": -4.225739
         }
       ]
     },
