@@ -297,6 +297,18 @@
           "expandedNote": "Reservation Number: 33418",
           "lat": 57.412929,
           "lng": -6.194617
+        },
+        {
+          "id": "day-6-s1780538105561",
+          "time": "11:00",
+          "title": "The Loch Ness Experience Cruise Tour",
+          "category": "tour",
+          "bookingStatus": "tickets-needed",
+          "address": "Drumnadrochit, Inverness IV63 6AN, United Kingdom",
+          "highlightNote": "1 hour cruise around Loch Ness",
+          "expandedNote": "",
+          "lat": 57.335693,
+          "lng": -4.479998
         }
       ]
     },
