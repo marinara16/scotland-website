@@ -267,16 +267,6 @@
       "primaryCategory": "tour",
       "stops": [
         {
-          "id": "d9-s5",
-          "time": "17:00",
-          "title": "Check in — Craigellachie Hotel",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Victoria St, Craigellachie AB38 9SR",
-          "highlightNote": "Victorian hotel in the heart of Speyside whisky country. Legendary whisky bar attached.",
-          "expandedNote": "Confirmation: CR-2026-MALDA. Classic Scottish Victorian hotel right in the village. The Quaich Bar has 800+ single malts — one of the largest collections in the world. Dinner at the Ben Aigan restaurant on site. A true whisky pilgrim's base."
-        },
-        {
           "id": "d9-s6",
           "time": "19:30",
           "title": "Dinner at Ben Aigan Restaurant",
