@@ -627,6 +627,18 @@
           "expandedNote": "",
           "lat": 55.860982,
           "lng": -4.248879
+        },
+        {
+          "id": "day-11-s1780554774166",
+          "time": "13:30",
+          "title": "Kelvingrove Art Gallery and Museum",
+          "category": "activity",
+          "bookingStatus": "free",
+          "address": "Argyle St, Glasgow G3 8AG, United Kingdom",
+          "highlightNote": "Closes at 5:00 PM",
+          "expandedNote": "",
+          "lat": 55.861449,
+          "lng": -4.273507
         }
       ]
     },
