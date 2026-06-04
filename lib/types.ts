@@ -8,7 +8,7 @@ export type Category =
   | 'leisure'
   | 'idea';
 
-export type BookingStatus = 'booked-timed' | 'booked-allday' | 'free' | 'tickets-needed';
+export type BookingStatus = 'booked-timed' | 'booked-allday' | 'free' | 'parking-fee' | 'tickets-needed' | 'just-show-up' | 'pay-on-day';
 
 export interface Stop {
   id: string;

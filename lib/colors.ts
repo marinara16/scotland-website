@@ -73,6 +73,9 @@ export const CATEGORY_CONFIG: Record<
 export const BOOKING_STATUS_CONFIG = {
   'booked-timed': { icon: '🕐', label: 'Booked (Timed Entry)' },
   'booked-allday': { icon: '✅', label: 'Booked' },
-  'free': { icon: '🆓', label: 'Free Entry' },
+  'free': { icon: '🆓', label: 'Free' },
+  'parking-fee': { icon: '🅿️', label: 'Parking Fee' },
   'tickets-needed': { icon: '🔴', label: 'Tickets Still Needed' },
+  'just-show-up': { icon: '🚶', label: 'Just Show Up' },
+  'pay-on-day': { icon: '💷', label: 'Pay on the Day' },
 };

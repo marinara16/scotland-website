@@ -540,7 +540,7 @@ function StopForm({
   submitLabel: string;
 }) {
   const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure', 'idea'];
-  const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'tickets-needed'];
+  const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'parking-fee', 'tickets-needed', 'just-show-up', 'pay-on-day'];
   const [geocoding, setGeocoding] = useState(false);
   const [geocodeError, setGeocodeError] = useState('');
 
