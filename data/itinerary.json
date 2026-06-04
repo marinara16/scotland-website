@@ -178,16 +178,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d7-s4",
-          "time": "17:00",
-          "title": "Talisker Distillery Tour",
-          "category": "tour",
-          "bookingStatus": "booked-allday",
-          "address": "Carbost, Isle of Skye IV47 8SR",
-          "highlightNote": "Skye's only distillery — famous peaty, maritime whisky. Tour includes 3 tastings.",
-          "expandedNote": "Tour booked: Classic Distillery Experience. 50 minutes + tasting. Talisker 10 Year is the flagship — coastal and peaty with a long warming finish. The Distillers Edition is excellent. Gift shop has distillery exclusives not sold elsewhere. No children under 8 in production areas."
-        },
-        {
           "id": "d7-s5",
           "time": "19:30",
           "title": "Dinner at The Three Chimneys",
