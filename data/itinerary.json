@@ -12,13 +12,13 @@
       "stops": [
         {
           "id": "d1-s1",
-          "time": "10:00",
+          "time": "21:15",
           "title": "Arrive Edinburgh Airport",
           "category": "travel",
           "bookingStatus": "booked",
           "address": "Edinburgh Airport, EH12 9DN",
-          "highlightNote": "Pick up rental car at the airport. Drive on the left!",
-          "expandedNote": "Rental car booked with Arnold Clark. Reference: AC-SCOT-2026. Fuel policy: full-to-full. GPS pre-installed. Park in Short Stay P2 before collection."
+          "highlightNote": "",
+          "expandedNote": ""
         },
         {
           "id": "d1-s2",
