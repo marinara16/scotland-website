@@ -571,6 +571,18 @@
           "expandedNote": "",
           "lat": 56.68275,
           "lng": -5.101232
+        },
+        {
+          "id": "day-10-s1780554126547",
+          "time": "14:00",
+          "title": "Explore/Drive Around the Area",
+          "category": "leisure",
+          "bookingStatus": "just-show-up",
+          "address": "The Ballachulish Peninsula, Ballachulish PH49 4HL, United Kingdom",
+          "highlightNote": "So many pretty spots, just drive around and explore. ",
+          "expandedNote": "",
+          "lat": 56.680241,
+          "lng": -5.130641
         }
       ]
     },
