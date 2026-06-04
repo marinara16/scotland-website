@@ -61,16 +61,6 @@
           "expandedNote": ""
         },
         {
-          "id": "day-2-s1780533097360",
-          "time": "12:45",
-          "title": "Royal Mile Walking Tour + Edinburgh Castle",
-          "category": "tour",
-          "bookingStatus": "booked-allday",
-          "address": "High St, Edinburgh EH1 1RF, United Kingdom",
-          "highlightNote": "Meeting Place for Tour, the tour starts at 1:00 PM",
-          "expandedNote": ""
-        },
-        {
           "id": "day-2-s1780533794066",
           "time": "",
           "title": "Victoria St.",
@@ -78,6 +68,16 @@
           "bookingStatus": "free",
           "address": "14 Victoria St, Edinburgh EH1 2HG, UK",
           "highlightNote": "Colorful street that is full of shops, great for photos.",
+          "expandedNote": ""
+        },
+        {
+          "id": "day-2-s1780533097360",
+          "time": "12:45",
+          "title": "Royal Mile Walking Tour + Edinburgh Castle",
+          "category": "tour",
+          "bookingStatus": "booked-allday",
+          "address": "High St, Edinburgh EH1 1RF, United Kingdom",
+          "highlightNote": "Meeting Place for Tour, the tour starts at 1:00 PM",
           "expandedNote": ""
         }
       ]
