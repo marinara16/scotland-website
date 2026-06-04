@@ -151,16 +151,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d4-s1",
-          "time": "08:30",
-          "title": "Drive north to Glencoe",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A82, Glencoe, PH49 4HX",
-          "highlightNote": "One of Scotland's most dramatic drives — around 1.5 hours through the Highland scenery.",
-          "expandedNote": "Route: Cameron House → A82 north through Tyndrum and Bridge of Orchy. The Rannoch Moor stretch is bleak and otherworldly — plan a stop at the viewpoint before descending into Glencoe. Stop at the Glencoe Visitor Centre to orient."
-        },
-        {
           "id": "d4-s2",
           "time": "10:30",
           "title": "Glencoe Visitor Centre",
