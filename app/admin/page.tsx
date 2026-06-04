@@ -192,16 +192,20 @@ export default function AdminPage() {
             <div className="text-xs text-stone-400 font-medium">Scotland 2026</div>
             <h1 className="text-base font-semibold text-stone-800">Admin Panel</h1>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 flex-wrap justify-end">
             {saveStatus === 'saving' && (
               <span className="text-xs text-amber-600 font-medium animate-pulse">Saving…</span>
             )}
             {saveStatus === 'saved' && (
-              <span className="text-xs text-green-600 font-medium">✓ Saved — redeploying</span>
+              <span className="text-xs text-green-600 font-medium">✓ Saved</span>
             )}
             {saveStatus === 'error' && (
               <span className="text-xs text-red-500 font-medium" title={saveError}>⚠ Save failed</span>
             )}
+            <GeocodeAllButton onDone={(updated) => {
+              setSaveStatus('saved');
+              setTimeout(() => setSaveStatus('idle'), 3000);
+            }} />
             <a
               href="/"
               className="text-xs text-stone-400 hover:text-stone-600 border border-stone-200 rounded-lg px-3 py-1.5"
@@ -695,5 +699,39 @@ function StopForm({
         {submitLabel}
       </button>
     </div>
+  );
+}
+
+function GeocodeAllButton({ onDone }: { onDone: (updated: number) => void }) {
+  const [status, setStatus] = useState<'idle' | 'running' | 'done' | 'error'>('idle');
+  const [result, setResult] = useState('');
+
+  async function run() {
+    setStatus('running');
+    setResult('');
+    try {
+      const res = await fetch('/api/geocode-missing', { method: 'POST' });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error);
+      setResult(`✓ ${json.updated} pinned`);
+      setStatus('done');
+      onDone(json.updated);
+      setTimeout(() => { setStatus('idle'); setResult(''); }, 5000);
+    } catch (e) {
+      setResult('Failed');
+      setStatus('error');
+      setTimeout(() => { setStatus('idle'); setResult(''); }, 4000);
+    }
+  }
+
+  return (
+    <button
+      onClick={run}
+      disabled={status === 'running'}
+      title="Auto-add map coordinates to all stops that are missing them"
+      className="text-xs border border-stone-200 rounded-lg px-3 py-1.5 hover:border-stone-400 disabled:opacity-50 transition-colors whitespace-nowrap"
+    >
+      {status === 'running' ? '📍 Pinning…' : status === 'done' ? `📍 ${result}` : '📍 Pin All Missing'}
+    </button>
   );
 }
