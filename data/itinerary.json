@@ -267,16 +267,6 @@
       "primaryCategory": "tour",
       "stops": [
         {
-          "id": "d9-s4",
-          "time": "15:00",
-          "title": "Macallan Distillery Experience",
-          "category": "tour",
-          "bookingStatus": "booked-allday",
-          "address": "Easter Elchies, Charlestown of Aberlour AB38 9RX",
-          "highlightNote": "The most spectacular distillery building in Scotland. Architecture alone is worth the visit.",
-          "expandedNote": "The new Macallan distillery (opened 2018) is a stunning curved grass-roofed building by Rogers Stirk Harbour. Macallan Distillery Experience booked — 75 minutes, guided tour and 2 tastings. The whisky is world-class. The Double Cask 12 Year is excellent value; the Estate Reserve is a distillery exclusive."
-        },
-        {
           "id": "d9-s5",
           "time": "17:00",
           "title": "Check in — Craigellachie Hotel",
