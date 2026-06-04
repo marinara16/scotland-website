@@ -303,16 +303,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d13-s4",
-          "time": "15:30",
-          "title": "Check in — Kimpton Blythswood Square",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "11 Blythswood Square, Glasgow G2 4AD",
-          "highlightNote": "Glasgow's finest hotel — in a restored Georgian townhouse around an elegant city square.",
-          "expandedNote": "Confirmation: KB-2026-MALDA. Elegant city hotel in a beautiful Georgian square. Spa downstairs — book a treatment (champagne afternoon tea in the spa is a treat). Cocktail bar is one of Glasgow's best. Central location — everything walkable."
-        },
-        {
           "id": "d13-s5",
           "time": "17:00",
           "title": "Merchant City & Glasgow Cathedral",
