@@ -275,49 +275,49 @@ function StopItem({
                 </a>
               )}
 
-              {/* Flag / unflag */}
-              {!stop.flag && (
+              {/* Flag button — inside expanded section */}
+              {!stop.flag && !showFlagForm && (
                 <div className="pt-1">
-                  {!showFlagForm ? (
-                    <button
-                      onClick={(e) => { e.stopPropagation(); setShowFlagForm(true); }}
-                      className="flex items-center gap-1.5 text-xs text-stone-400 hover:text-red-500 transition-colors"
-                    >
-                      <span>🚩</span> Flag this stop
-                    </button>
-                  ) : (
-                    <div onClick={(e) => e.stopPropagation()} className="space-y-2">
-                      <textarea
-                        value={flagNote}
-                        onChange={(e) => setFlagNote(e.target.value)}
-                        placeholder="What's the issue? e.g. Can we do this instead?"
-                        onKeyDown={(e) => e.stopPropagation()}
-                        rows={2}
-                        autoFocus
-                        className="w-full px-3 py-2 text-xs border border-red-200 rounded-lg bg-red-50 focus:outline-none focus:border-red-400 resize-none"
-                      />
-                      <div className="flex gap-2">
-                        <button
-                          onClick={handleFlag}
-                          disabled={flagSaving}
-                          className="text-xs bg-red-500 text-white px-3 py-1.5 rounded-lg hover:bg-red-600 disabled:opacity-50 transition-colors"
-                        >
-                          {flagSaving ? 'Saving…' : '🚩 Flag'}
-                        </button>
-                        <button
-                          onClick={(e) => { e.stopPropagation(); setShowFlagForm(false); setFlagNote(''); }}
-                          className="text-xs text-stone-400 hover:text-stone-600 px-3 py-1.5 transition-colors"
-                        >
-                          Cancel
-                        </button>
-                      </div>
-                    </div>
-                  )}
+                  <button
+                    onClick={(e) => { e.stopPropagation(); setShowFlagForm(true); }}
+                    className="flex items-center gap-1.5 text-xs text-stone-400 hover:text-red-500 transition-colors"
+                  >
+                    <span>🚩</span> Flag this stop
+                  </button>
                 </div>
               )}
             </div>
           )}
         </button>
+
+        {/* Flag form — outside the card button so keyboard input works correctly */}
+        {isExpanded && !stop.flag && showFlagForm && (
+          <div className="mt-1.5 bg-red-50 border border-red-200 rounded-xl p-3 space-y-2">
+            <textarea
+              value={flagNote}
+              onChange={(e) => setFlagNote(e.target.value)}
+              placeholder="What's the issue? e.g. Can we do this instead?"
+              rows={2}
+              autoFocus
+              className="w-full px-3 py-2 text-xs border border-red-200 rounded-lg bg-white focus:outline-none focus:border-red-400 resize-none"
+            />
+            <div className="flex gap-2">
+              <button
+                onClick={handleFlag}
+                disabled={flagSaving}
+                className="text-xs bg-red-500 text-white px-3 py-1.5 rounded-lg hover:bg-red-600 disabled:opacity-50 transition-colors"
+              >
+                {flagSaving ? 'Saving…' : '🚩 Flag'}
+              </button>
+              <button
+                onClick={() => { setShowFlagForm(false); setFlagNote(''); }}
+                className="text-xs text-stone-400 hover:text-stone-600 px-3 py-1.5 transition-colors"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
