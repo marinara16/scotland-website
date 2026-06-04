@@ -515,18 +515,6 @@
           "expandedNote": ""
         },
         {
-          "id": "day-9-s1780552993273",
-          "time": "16:00",
-          "title": "Fort Williams to Accommodation in Glencoe",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Lower Carnoch, Glencoe, Ballachulish PH49 4HS, United Kingdom",
-          "highlightNote": "~16 miles, ~30 min",
-          "expandedNote": "",
-          "lat": 56.682545,
-          "lng": -5.102262
-        },
-        {
           "id": "day-9-s1780553295021",
           "time": "14:00",
           "title": "Glencoe Lochan Circuit",
@@ -538,6 +526,18 @@
           "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-and-lochan-circular",
           "lat": 56.68275,
           "lng": -5.101232
+        },
+        {
+          "id": "day-9-s1780552993273",
+          "time": "16:00",
+          "title": "Fort Williams to Accommodation in Glencoe",
+          "category": "accommodation",
+          "bookingStatus": "booked-allday",
+          "address": "Lower Carnoch, Glencoe, Ballachulish PH49 4HS, United Kingdom",
+          "highlightNote": "~16 miles, ~30 min",
+          "expandedNote": "",
+          "lat": 56.682545,
+          "lng": -5.102262
         }
       ]
     },
