@@ -2,13 +2,20 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   turbopack: {},
-  // Headers for PWA and security
   async headers() {
     return [
+      // Never cache HTML pages — always fetch fresh from server
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'Cache-Control', value: 'no-store, must-revalidate' },
+        ],
+      },
+      // Service worker
       {
         source: '/sw.js',
         headers: [
-          { key: 'Cache-Control', value: 'public, max-age=0, must-revalidate' },
+          { key: 'Cache-Control', value: 'no-store' },
           { key: 'Service-Worker-Allowed', value: '/' },
         ],
       },
