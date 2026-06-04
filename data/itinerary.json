@@ -559,6 +559,18 @@
           "highlightNote": "Allow 1-2 hours",
           "expandedNote": "",
           "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/glencoe-military-road-from-three-sisters-car-park"
+        },
+        {
+          "id": "day-10-s1780553906984",
+          "time": "12:00",
+          "title": "Glencoe Visitor Center",
+          "category": "activity",
+          "bookingStatus": "tickets-needed",
+          "address": "Visitor Centre, Glencoe, Ballachulish PH49 4HX, United Kingdom",
+          "highlightNote": "",
+          "expandedNote": "",
+          "lat": 56.68275,
+          "lng": -5.101232
         }
       ]
     },
