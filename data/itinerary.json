@@ -209,6 +209,16 @@
           "expandedNote": "",
           "lat": 57.479012,
           "lng": -4.225739
+        },
+        {
+          "id": "day-4-s1780535863514",
+          "time": "19:00",
+          "title": "Check into HOTEL",
+          "category": "accommodation",
+          "bookingStatus": "tickets-needed",
+          "address": "",
+          "highlightNote": "Still need to book Inverness hotel.",
+          "expandedNote": ""
         }
       ]
     },
