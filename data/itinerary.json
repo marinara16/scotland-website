@@ -151,16 +151,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d4-s4",
-          "time": "17:00",
-          "title": "Check in — Glencoe Inn",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Glencoe, PH49 4HT",
-          "highlightNote": "Cosy traditional inn with log fires and great local whisky selection.",
-          "expandedNote": "Confirmation: GI-2026-MALDA. Simple but atmospheric Highland pub with rooms. Dog-friendly. Good base for walkers. Bar meals available until 9pm — no need to dress up."
-        },
-        {
           "id": "d4-s5",
           "time": "19:00",
           "title": "Dinner at Glencoe Inn Bar",
