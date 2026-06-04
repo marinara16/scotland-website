@@ -21,6 +21,7 @@ export interface Stop {
   expandedNote: string;
   lat?: number;
   lng?: number;
+  trailUrl?: string;
 }
 
 export interface Day {

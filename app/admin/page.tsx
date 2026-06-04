@@ -674,6 +674,19 @@ function StopForm({
         />
       </div>
 
+      {stop.category === 'hiking' && (
+        <div>
+          <label className={labelCls}>AllTrails Link <span className="text-stone-400 font-normal">(optional)</span></label>
+          <input
+            type="url"
+            value={stop.trailUrl ?? ''}
+            onChange={(e) => field('trailUrl', e.target.value)}
+            placeholder="https://www.alltrails.com/trail/..."
+            className={inputCls}
+          />
+        </div>
+      )}
+
       <button
         onClick={onSubmit}
         disabled={!stop.title.trim()}
