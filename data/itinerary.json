@@ -294,16 +294,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d12-s4",
-          "time": "14:30",
-          "title": "Drive through the Trossachs",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A821, The Trossachs, FK17 8HZ",
-          "highlightNote": "Scotland's 'Little Highlands' — gorgeous loch and forest scenery close to the central belt.",
-          "expandedNote": "Route: Stirling → A84 → A821 through the Trossachs National Park to Callander. Stop at Loch Katrine — Rob Roy country. The SS Sir Walter Scott steamer runs cruises until end of October — worth checking if you have time."
-        },
-        {
           "id": "d12-s5",
           "time": "16:30",
           "title": "Check in — Roman Camp Country House",
