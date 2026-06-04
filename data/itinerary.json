@@ -101,16 +101,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d3-s1",
-          "time": "09:00",
-          "title": "Check out & drive to Loch Lomond",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A82, Loch Lomond, G83",
-          "highlightNote": "~1.5 hour drive northwest. Take the scenic A82 along the loch's western shore.",
-          "expandedNote": "Route: Edinburgh → M9 → A811 → A82. The A82 hugs the western shore of Loch Lomond — spectacular. Stop at Luss village en route (very picturesque). Avoid Drumkinnon Tower car park on weekends — full by 10am."
-        },
-        {
           "id": "d3-s2",
           "time": "11:30",
           "title": "Luss Village & Lochside Walk",
