@@ -229,7 +229,20 @@
       "location": "Inverness & Culloden",
       "overnightHotel": "",
       "primaryCategory": "leisure",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-5-s1780536196822",
+          "time": "09:00",
+          "title": "Explore Inverness",
+          "category": "leisure",
+          "bookingStatus": "free",
+          "address": "40 Academy St, Inverness IV1 1JT, UK",
+          "highlightNote": "Slow morning, explore. ",
+          "expandedNote": "",
+          "lat": 57.47966,
+          "lng": -4.22482
+        }
+      ]
     },
     {
       "id": "day-6",
