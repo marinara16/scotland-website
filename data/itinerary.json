@@ -51,16 +51,6 @@
           "expandedNote": "Places to visit: Victoria St. and Tron Kirk Market"
         },
         {
-          "id": "d2-s2",
-          "time": "13:00",
-          "title": "Lunch at Deacon Brodie's Tavern",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "435 Lawnmarket, Edinburgh EH1 2NT",
-          "highlightNote": "Classic Edinburgh pub on the Royal Mile. Great pies and local ales.",
-          "expandedNote": "Named after the real Deacon Brodie who inspired Jekyll & Hyde. No reservation needed at lunch — just walk in. Try the Cullen skink (smoked haddock soup) or scotch pie."
-        },
-        {
           "id": "d2-s3",
           "time": "14:30",
           "title": "Arthur's Seat Hike",
