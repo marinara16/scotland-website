@@ -328,7 +328,7 @@
           "time": "14:00",
           "title": "Eilean Donan Castle",
           "category": "activity",
-          "bookingStatus": "tickets-needed",
+          "bookingStatus": "pay-on-day",
           "address": "Dornie, Kyle of Lochalsh IV40 8DX, United Kingdom",
           "highlightNote": "Tickets are bought on site, 13 each.",
           "expandedNote": "",
