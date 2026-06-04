@@ -503,6 +503,16 @@
           "expandedNote": "",
           "lat": 57.06702,
           "lng": -4.800929
+        },
+        {
+          "id": "day-9-s1780552898089",
+          "time": "12:30",
+          "title": "Eat in Fort Williams",
+          "category": "restaurant",
+          "bookingStatus": "just-show-up",
+          "address": "",
+          "highlightNote": "Enjoy the views of Ben Nevis, the tallest mountain in the UK",
+          "expandedNote": ""
         }
       ]
     },
