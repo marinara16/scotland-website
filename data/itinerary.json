@@ -265,18 +265,7 @@
       "location": "Speyside & Cairngorms",
       "overnightHotel": "Craigellachie Hotel, Speyside",
       "primaryCategory": "tour",
-      "stops": [
-        {
-          "id": "d9-s6",
-          "time": "19:30",
-          "title": "Dinner at Ben Aigan Restaurant",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Craigellachie Hotel, Victoria St AB38 9SR",
-          "highlightNote": "Seasonal Scottish produce with Speyside flair. Book the whisky pairing menu.",
-          "expandedNote": "In-house dining. Request the Whisky Pairing Dinner if available — each course matched with a dram. Grouse, venison, and Aberdeen Angus are reliably excellent. Then head to the Quaich Bar and work through the shelf."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-10",
