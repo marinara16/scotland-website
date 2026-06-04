@@ -158,18 +158,7 @@
       "location": "Fort William & Ben Nevis",
       "overnightHotel": "Inverlochy Castle Hotel, Fort William",
       "primaryCategory": "hiking",
-      "stops": [
-        {
-          "id": "d5-s3",
-          "time": "19:30",
-          "title": "Dinner at Inverlochy Castle Dining Room",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Inverlochy Castle, Torlundy, Fort William PH33 6SN",
-          "highlightNote": "Fine dining with Highland produce. Jacket required. Queen Victoria once stayed here.",
-          "expandedNote": "4-course tasting menu. Highland beef, West Coast seafood, and game in season. Award-winning wine cellar. Dress: jacket and collared shirt. A wonderful reward after summiting Ben Nevis."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-6",
