@@ -299,18 +299,6 @@
           "lng": -4.479998
         },
         {
-          "id": "day-6-s1780536735293",
-          "time": "16:00",
-          "title": "The Portree Hotel",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "Somerled Square, Portree IV51 9EH, United Kingdom",
-          "highlightNote": "Check in starts at 4:00 PM",
-          "expandedNote": "Reservation Number: 33418",
-          "lat": 57.412929,
-          "lng": -6.194617
-        },
-        {
           "id": "day-6-s1780538228576",
           "time": "14:00",
           "title": "Eilean Donan Castle",
@@ -321,6 +309,18 @@
           "expandedNote": "",
           "lat": 57.28094,
           "lng": -5.716215
+        },
+        {
+          "id": "day-6-s1780536735293",
+          "time": "16:00",
+          "title": "The Portree Hotel",
+          "category": "accommodation",
+          "bookingStatus": "booked-allday",
+          "address": "Somerled Square, Portree IV51 9EH, United Kingdom",
+          "highlightNote": "Check in starts at 4:00 PM",
+          "expandedNote": "Reservation Number: 33418",
+          "lat": 57.412929,
+          "lng": -6.194617
         }
       ]
     },
