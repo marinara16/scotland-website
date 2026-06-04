@@ -187,16 +187,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d8-s4",
-          "time": "17:30",
-          "title": "Inverness City Centre walk",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Inverness City Centre, IV1 1DZ",
-          "highlightNote": "Walk the river banks and explore the Victorian Market. A relaxed evening in the Highland capital.",
-          "expandedNote": "Inverness Castle (currently being renovated) has good views from the grounds. The Victorian Market arcade is charming. Walk along the River Ness to the Ness Islands — connected by footbridges, very peaceful in autumn."
-        },
-        {
           "id": "d8-s5",
           "time": "19:30",
           "title": "Dinner at Rocpool Restaurant",
