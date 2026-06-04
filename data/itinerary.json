@@ -253,6 +253,16 @@
           "expandedNote": "",
           "lat": 57.479786,
           "lng": -4.225683
+        },
+        {
+          "id": "day-5-s1780536260400",
+          "time": "",
+          "title": "Leaky's Bookshop",
+          "category": "idea",
+          "bookingStatus": "free",
+          "address": "Church St, Inverness IV1 1EY, United Kingdom",
+          "highlightNote": "Browse for books inside a restored 17th-century church, making it Scotland's largest second-hand bookshop.",
+          "expandedNote": ""
         }
       ]
     },
