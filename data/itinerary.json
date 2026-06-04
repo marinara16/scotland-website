@@ -241,6 +241,18 @@
           "expandedNote": "",
           "lat": 57.47966,
           "lng": -4.22482
+        },
+        {
+          "id": "day-5-s1780536225330",
+          "time": "",
+          "title": "The Victorian Market",
+          "category": "idea",
+          "bookingStatus": "free",
+          "address": "Academy St, Inverness IV1 1JN, United Kingdom",
+          "highlightNote": "Roam through this beautifully restored 1870s covered market in the town center, filled with independent shops and cafes.",
+          "expandedNote": "",
+          "lat": 57.479786,
+          "lng": -4.225683
         }
       ]
     },
