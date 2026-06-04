@@ -605,6 +605,16 @@
           "expandedNote": "",
           "lat": 56.000289,
           "lng": -4.586799
+        },
+        {
+          "id": "day-11-s1780554399001",
+          "time": "11:00",
+          "title": "Explore Luss",
+          "category": "leisure",
+          "bookingStatus": "none",
+          "address": "Luss, UK",
+          "highlightNote": "",
+          "expandedNote": ""
         }
       ]
     },
