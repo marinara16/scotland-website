@@ -116,7 +116,11 @@ export default function MapView({ days }: Props) {
         const features: GeoJSON.Feature<GeoJSON.Point>[] = [];
         days.forEach((day) => {
           day.stops.forEach((stop) => {
-            const coords = STOP_COORDS[stop.id];
+            // Prefer coordinates stored on the stop, fall back to legacy lookup table
+            const coords: [number, number] | undefined =
+              stop.lng != null && stop.lat != null
+                ? [stop.lng, stop.lat]
+                : STOP_COORDS[stop.id];
             if (!coords) return;
             const config = CATEGORY_CONFIG[stop.category];
             features.push({

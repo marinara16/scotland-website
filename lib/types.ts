@@ -19,6 +19,8 @@ export interface Stop {
   address: string;
   highlightNote: string;
   expandedNote: string;
+  lat?: number;
+  lng?: number;
 }
 
 export interface Day {

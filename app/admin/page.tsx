@@ -521,9 +521,34 @@ function StopForm({
 }) {
   const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure', 'idea'];
   const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'tickets-needed'];
+  const [geocoding, setGeocoding] = useState(false);
+  const [geocodeError, setGeocodeError] = useState('');
 
-  function field(key: keyof Omit<Stop, 'id'>, value: string) {
+  function field(key: keyof Omit<Stop, 'id'>, value: string | number) {
     onChange({ ...stop, [key]: value });
+  }
+
+  async function lookupCoords() {
+    const address = stop.address.trim();
+    if (!address) return;
+    const token = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+    if (!token) { setGeocodeError('No Mapbox token'); return; }
+    setGeocoding(true);
+    setGeocodeError('');
+    try {
+      const res = await fetch(
+        `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(address)}.json?access_token=${token}&country=gb&limit=1`
+      );
+      const json = await res.json();
+      const feature = json.features?.[0];
+      if (!feature) { setGeocodeError('Address not found'); return; }
+      const [lng, lat] = feature.center;
+      onChange({ ...stop, lat, lng });
+    } catch {
+      setGeocodeError('Lookup failed');
+    } finally {
+      setGeocoding(false);
+    }
   }
 
   const inputCls = 'w-full px-3 py-2 text-sm border border-stone-200 rounded-lg bg-white focus:outline-none focus:border-stone-400 transition-colors';
@@ -581,13 +606,30 @@ function StopForm({
 
       <div>
         <label className={labelCls}>Address</label>
-        <input
-          type="text"
-          value={stop.address}
-          onChange={(e) => field('address', e.target.value)}
-          placeholder="Full address"
-          className={inputCls}
-        />
+        <div className="flex gap-2">
+          <input
+            type="text"
+            value={stop.address}
+            onChange={(e) => { field('address', e.target.value); setGeocodeError(''); }}
+            placeholder="Full address"
+            className={inputCls}
+          />
+          <button
+            type="button"
+            onClick={lookupCoords}
+            disabled={geocoding || !stop.address.trim()}
+            title="Auto-fill map coordinates from address"
+            className="flex-shrink-0 px-3 py-2 text-xs border border-stone-200 rounded-lg hover:border-stone-400 disabled:opacity-40 disabled:cursor-not-allowed transition-colors whitespace-nowrap"
+          >
+            {geocoding ? '…' : '📍 Map it'}
+          </button>
+        </div>
+        {geocodeError && <p className="text-red-500 text-xs mt-1">{geocodeError}</p>}
+        {stop.lat != null && stop.lng != null && (
+          <p className="text-green-600 text-xs mt-1">
+            ✓ Pin set — {stop.lat.toFixed(4)}, {stop.lng.toFixed(4)}
+          </p>
+        )}
       </div>
 
       <div>
