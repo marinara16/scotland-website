@@ -79,6 +79,16 @@
           "address": "High St, Edinburgh EH1 1RF, United Kingdom",
           "highlightNote": "Meeting Place for Tour, the tour starts at 1:00 PM",
           "expandedNote": ""
+        },
+        {
+          "id": "day-2-s1780533914868",
+          "time": "17:00",
+          "title": "Calton Hill",
+          "category": "idea",
+          "bookingStatus": "free",
+          "address": "Edinburgh EH7 5AA, United Kingdom",
+          "highlightNote": "Sunset views, National Monument, Nelson Monument, and City Observatory",
+          "expandedNote": "Best light 5:00 to 6:30 PM in October."
         }
       ]
     },
