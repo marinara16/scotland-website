@@ -267,16 +267,6 @@
       "primaryCategory": "tour",
       "stops": [
         {
-          "id": "d9-s3",
-          "time": "13:30",
-          "title": "Lunch at The Highlander Inn, Craigellachie",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "10 Victoria St, Craigellachie AB38 9SR",
-          "highlightNote": "Legendary whisky pub — 320 malts behind the bar. Simple pub food, extraordinary whisky list.",
-          "expandedNote": "No reservation needed for lunch. Bar food is simple and good — pies, soups, toasties. The reason to come is the whisky list. Ask the staff for a recommendation — they genuinely know their stuff. A pilgrimage stop for any whisky lover."
-        },
-        {
           "id": "d9-s4",
           "time": "15:00",
           "title": "Macallan Distillery Experience",
