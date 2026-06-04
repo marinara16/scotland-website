@@ -276,16 +276,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d10-s1",
-          "time": "09:00",
-          "title": "Drive to Stonehaven via Balmoral",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A93, Balmoral Castle, AB35 5TB",
-          "highlightNote": "Drive the Royal Deeside road past Balmoral and Braemar. Stunning autumn colours.",
-          "expandedNote": "Route: Craigellachie → A95 → A939 → A93 (Royal Deeside). Stop briefly at Balmoral Estate — you can walk the grounds when the Royal Family is not in residence. Braemar Castle is a short detour, worth 45 minutes."
-        },
-        {
           "id": "d10-s3",
           "time": "14:00",
           "title": "Stonehaven Harbour & Fish & Chips",
