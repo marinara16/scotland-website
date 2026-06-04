@@ -301,18 +301,7 @@
       "location": "Glasgow",
       "overnightHotel": "Kimpton Blythswood Square Hotel, Glasgow",
       "primaryCategory": "activity",
-      "stops": [
-        {
-          "id": "d13-s6",
-          "time": "19:30",
-          "title": "Dinner at Ox and Finch",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "920 Sauchiehall St, Glasgow G3 7TF",
-          "highlightNote": "Glasgow's best sharing plates restaurant — modern, lively, and superb quality.",
-          "expandedNote": "Reservation under Malda. Small plates to share — order 4-5 per person. Known for the cured meats, langoustines, and beef tartare. Wine list is thoughtfully sourced. Very lively atmosphere — Glasgow at its best. ~£60pp with wine."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-14",
