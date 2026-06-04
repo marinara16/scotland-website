@@ -303,16 +303,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d13-s3",
-          "time": "13:30",
-          "title": "Lunch at The Ubiquitous Chip",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "12 Ashton Lane, Glasgow G12 8SJ",
-          "highlightNote": "Glasgow's most famous restaurant — 50 years in a cobbled lane. Scottish produce at its finest.",
-          "expandedNote": "Reservation under Malda. The brasserie upstairs is more casual and affordable than the main restaurant downstairs. Known for haggis bons bons, venison, and outstanding Scottish cheeses. In the lovely West End's Ashton Lane — explore the lane before and after lunch."
-        },
-        {
           "id": "d13-s4",
           "time": "15:30",
           "title": "Check in — Kimpton Blythswood Square",
