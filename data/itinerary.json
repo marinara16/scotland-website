@@ -277,16 +277,6 @@
           "expandedNote": "Route: Inverness → A9 south → B9152 through Aviemore → B970 → A95 east to Speyside. Stop at Loch an Eilein in the Cairngorms — tiny island castle in a woodland loch, 30-minute walk round. Aviemore is a good coffee stop."
         },
         {
-          "id": "d9-s2",
-          "time": "11:00",
-          "title": "Glenfarclas Distillery Tour",
-          "category": "tour",
-          "bookingStatus": "booked-allday",
-          "address": "Ballindalloch, Speyside AB37 9BD",
-          "highlightNote": "Family-owned distillery since 1865. Some of the finest Speyside sherry-cask whisky.",
-          "expandedNote": "Booked: Heritage Tour — includes private warehouse visit and tasting of 6 whiskies from different ages and casks. Glenfarclas 105 cask strength is remarkable. Family has run it for 6 generations. No gift wrap needed — buy a bottle and they ship internationally. Budget ~£40pp for tour + purchases."
-        },
-        {
           "id": "d9-s3",
           "time": "13:30",
           "title": "Lunch at The Highlander Inn, Craigellachie",
