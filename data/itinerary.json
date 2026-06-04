@@ -126,7 +126,8 @@
           "bookingStatus": "free",
           "address": "XR2J+F5, Edinburgh EH8 8AZ, United Kingdom",
           "highlightNote": "Optional depending on the weather ",
-          "expandedNote": ""
+          "expandedNote": "",
+          "trailUrl": "https://www.alltrails.com/trail/scotland/edinburgh/arthurs-seat"
         },
         {
           "id": "day-3-s1780535196403",
