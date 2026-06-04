@@ -292,7 +292,7 @@
           "time": "09:00",
           "title": "Inverness to Drumnadrochit",
           "category": "travel",
-          "bookingStatus": "free",
+          "bookingStatus": "none",
           "address": "Drumnadrochit, UK",
           "highlightNote": "~30 miles, ~30 min",
           "expandedNote": "",
