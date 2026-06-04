@@ -524,7 +524,18 @@
       "location": "Edinburgh — Departure",
       "overnightHotel": "",
       "primaryCategory": "travel",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-14-s1780552457096",
+          "time": "09:15",
+          "title": "Flight to Amsterdam",
+          "category": "travel",
+          "bookingStatus": "booked-allday",
+          "address": "",
+          "highlightNote": "",
+          "expandedNote": ""
+        }
+      ]
     }
   ]
 }
