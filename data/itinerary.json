@@ -178,16 +178,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d7-s2",
-          "time": "12:00",
-          "title": "Portree Harbour & Lunch",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Portree Harbour, Isle of Skye IV51 9DE",
-          "highlightNote": "The colourful harbour town of Skye. Lunch at Café Arriba for the best views.",
-          "expandedNote": "Portree is Skye's main town. Coloured buildings around the harbour are very photogenic. Café Arriba on Quay Brae has the best views and excellent seafood chowder. Nearby: Skye Soap Co for gifts, and the Aros Centre for local info."
-        },
-        {
           "id": "d7-s3",
           "time": "14:00",
           "title": "Fairy Pools",
