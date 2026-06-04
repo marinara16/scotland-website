@@ -43,12 +43,12 @@
         {
           "id": "d2-s1",
           "time": "09:00",
-          "title": "Edinburgh Castle",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Castlehill, Edinburgh EH1 2NG",
-          "highlightNote": "The crown jewels of Scotland and the One O'Clock Gun. Allow 2–3 hours.",
-          "expandedNote": "Pre-booked timed entry — check email for time slot confirmation. Entry includes: Scottish Crown Jewels, Stone of Destiny, Great Hall, and War Memorial. The One O'Clock Gun fires daily except Sunday. Audio guide recommended (£4 extra)."
+          "title": "Exploring Old Town",
+          "category": "leisure",
+          "bookingStatus": "free",
+          "address": "Edinburgh EH1 1QS, United Kingdom",
+          "highlightNote": "Stress-free start, explore shops and nearby areas",
+          "expandedNote": "Places to visit: Victoria St. and Tron Kirk Market"
         },
         {
           "id": "d2-s2",
