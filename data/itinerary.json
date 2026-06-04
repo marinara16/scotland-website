@@ -303,16 +303,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d13-s1",
-          "time": "09:30",
-          "title": "Drive Callander to Glasgow",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "M80, Glasgow, G1 1DH",
-          "highlightNote": "1-hour easy drive south to Glasgow. Drop the car at the hotel — you won't need it in the city.",
-          "expandedNote": "Route: Callander → A84 → M80 → M8 into Glasgow city centre. Hotel has valet parking — ask about overnight rate. No need for the car in Glasgow for the rest of the trip. Return the rental tomorrow morning."
-        },
-        {
           "id": "d13-s2",
           "time": "11:00",
           "title": "Kelvingrove Art Gallery",
