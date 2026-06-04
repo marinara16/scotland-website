@@ -165,12 +165,26 @@ function StopItem({
                 <p className="text-stone-600 text-xs leading-relaxed">{stop.expandedNote}</p>
               )}
               {stop.address && (
-                <div className="flex items-start gap-1.5 text-xs text-stone-400">
-                  <svg className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  <span>{stop.address}</span>
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex items-start gap-1.5 text-xs text-stone-400 flex-1 min-w-0">
+                    <svg className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span>{stop.address}</span>
+                  </div>
+                  <a
+                    href={`https://maps.google.com/?q=${encodeURIComponent(stop.address)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="flex-shrink-0 flex items-center gap-1 text-xs text-[#1e3a5f] font-medium border border-[#1e3a5f] rounded-lg px-2.5 py-1 hover:bg-[#1e3a5f] hover:text-white transition-colors"
+                  >
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    Maps
+                  </a>
                 </div>
               )}
               <div className="flex items-center gap-1.5 text-xs text-stone-400">
