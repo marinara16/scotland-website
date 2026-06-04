@@ -294,16 +294,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d12-s2",
-          "time": "10:30",
-          "title": "Stirling Castle",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Castle Esplanade, Stirling FK8 1EJ",
-          "highlightNote": "Arguably the finest castle in Scotland — Mary Queen of Scots was crowned here.",
-          "expandedNote": "Pre-booked timed entry. Allow 2-3 hours. The restored Royal Palace is extraordinary — the Stirling Heads room and great tapestries are highlights. Chapel Royal and Great Hall also impressive. Views from the ramparts stretch from Ben Lomond to the Firth of Forth."
-        },
-        {
           "id": "d12-s3",
           "time": "13:00",
           "title": "The Smithy Coffee Shop, Stirling",
