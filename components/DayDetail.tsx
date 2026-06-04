@@ -4,6 +4,22 @@ import { useState } from 'react';
 import type { Day, Stop } from '@/lib/types';
 import { CATEGORY_CONFIG, BOOKING_STATUS_CONFIG } from '@/lib/colors';
 
+async function submitFlag(stopId: string, note: string) {
+  await fetch('/api/flag', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ stopId, note }),
+  });
+}
+
+async function submitUnflag(stopId: string) {
+  await fetch('/api/flag', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ stopId, unflag: true }),
+  });
+}
+
 interface Props {
   day: Day;
   allDays: Day[];
@@ -15,6 +31,7 @@ const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 
 export default function DayDetail({ day, allDays, onBack, onSelectDay }: Props) {
   const [expandedStops, setExpandedStops] = useState<Set<string>>(new Set());
+  const [stops, setStops] = useState<Stop[]>(day.stops);
   const date = new Date(day.date + 'T00:00:00');
 
   function toggleStop(id: string) {
@@ -24,6 +41,10 @@ export default function DayDetail({ day, allDays, onBack, onSelectDay }: Props) 
       else next.add(id);
       return next;
     });
+  }
+
+  function handleFlagChange(stopId: string, flag?: { note: string; flaggedAt: string }) {
+    setStops((prev) => prev.map((s) => s.id === stopId ? { ...s, flag } : s));
   }
 
   const prevDay = allDays.find((d) => d.dayNumber === day.dayNumber - 1);
@@ -61,13 +82,14 @@ export default function DayDetail({ day, allDays, onBack, onSelectDay }: Props) 
 
       {/* Timeline */}
       <div className="max-w-2xl mx-auto px-4 pt-4 space-y-0">
-        {day.stops.map((stop, index) => (
+        {stops.map((stop, index) => (
           <StopItem
             key={stop.id}
             stop={stop}
-            isLast={index === day.stops.length - 1}
+            isLast={index === stops.length - 1}
             isExpanded={expandedStops.has(stop.id)}
             onToggle={() => toggleStop(stop.id)}
+            onFlagChange={handleFlagChange}
           />
         ))}
       </div>
@@ -102,14 +124,35 @@ function StopItem({
   isLast,
   isExpanded,
   onToggle,
+  onFlagChange,
 }: {
   stop: Stop;
   isLast: boolean;
   isExpanded: boolean;
   onToggle: () => void;
+  onFlagChange: (stopId: string, flag?: { note: string; flaggedAt: string }) => void;
 }) {
   const config = CATEGORY_CONFIG[stop.category];
   const booking = BOOKING_STATUS_CONFIG[stop.bookingStatus];
+  const [showFlagForm, setShowFlagForm] = useState(false);
+  const [flagNote, setFlagNote] = useState(stop.flag?.note ?? '');
+  const [flagSaving, setFlagSaving] = useState(false);
+
+  async function handleFlag() {
+    setFlagSaving(true);
+    await submitFlag(stop.id, flagNote);
+    onFlagChange(stop.id, { note: flagNote, flaggedAt: new Date().toISOString() });
+    setShowFlagForm(false);
+    setFlagSaving(false);
+  }
+
+  async function handleUnflag() {
+    setFlagSaving(true);
+    await submitUnflag(stop.id);
+    onFlagChange(stop.id, undefined);
+    setFlagNote('');
+    setFlagSaving(false);
+  }
 
   return (
     <div className="flex gap-3">
@@ -125,9 +168,29 @@ function StopItem({
       {/* Card */}
       <div className="flex-1 pb-4">
         <div className="text-xs text-stone-400 font-medium mb-1">{stop.time}</div>
+
+        {/* Flag banner — always visible when flagged */}
+        {stop.flag && (
+          <div className="mb-1.5 bg-red-50 border border-red-200 rounded-xl px-3 py-2.5 flex items-start justify-between gap-2">
+            <div className="flex items-start gap-2 flex-1 min-w-0">
+              <span className="text-sm flex-shrink-0">🚩</span>
+              <p className="text-xs text-red-700 leading-relaxed">{stop.flag.note || 'Flagged for review'}</p>
+            </div>
+            <button
+              onClick={(e) => { e.stopPropagation(); handleUnflag(); }}
+              disabled={flagSaving}
+              className="text-xs text-red-400 hover:text-red-600 flex-shrink-0 font-medium transition-colors"
+            >
+              {flagSaving ? '…' : 'Resolve'}
+            </button>
+          </div>
+        )}
+
         <button
           onClick={onToggle}
-          className="w-full text-left bg-white border border-stone-150 rounded-xl p-4 hover:border-stone-300 transition-all active:scale-[0.99]"
+          className={`w-full text-left bg-white rounded-xl p-4 transition-all active:scale-[0.99] ${
+            stop.flag ? 'border border-red-200 hover:border-red-300' : 'border border-stone-150 hover:border-stone-300'
+          }`}
         >
           {/* Top row */}
           <div className="flex items-start justify-between gap-2">
@@ -145,9 +208,7 @@ function StopItem({
             </div>
             <svg
               className={`w-4 h-4 text-stone-400 flex-shrink-0 mt-1 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
@@ -206,6 +267,46 @@ function StopItem({
                   </svg>
                   View Trail on AllTrails
                 </a>
+              )}
+
+              {/* Flag / unflag */}
+              {!stop.flag && (
+                <div className="pt-1">
+                  {!showFlagForm ? (
+                    <button
+                      onClick={(e) => { e.stopPropagation(); setShowFlagForm(true); }}
+                      className="flex items-center gap-1.5 text-xs text-stone-400 hover:text-red-500 transition-colors"
+                    >
+                      <span>🚩</span> Flag this stop
+                    </button>
+                  ) : (
+                    <div onClick={(e) => e.stopPropagation()} className="space-y-2">
+                      <textarea
+                        value={flagNote}
+                        onChange={(e) => setFlagNote(e.target.value)}
+                        placeholder="What's the issue? e.g. Can we do this instead?"
+                        rows={2}
+                        autoFocus
+                        className="w-full px-3 py-2 text-xs border border-red-200 rounded-lg bg-red-50 focus:outline-none focus:border-red-400 resize-none"
+                      />
+                      <div className="flex gap-2">
+                        <button
+                          onClick={handleFlag}
+                          disabled={flagSaving}
+                          className="text-xs bg-red-500 text-white px-3 py-1.5 rounded-lg hover:bg-red-600 disabled:opacity-50 transition-colors"
+                        >
+                          {flagSaving ? 'Saving…' : '🚩 Flag'}
+                        </button>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); setShowFlagForm(false); setFlagNote(''); }}
+                          className="text-xs text-stone-400 hover:text-stone-600 px-3 py-1.5 transition-colors"
+                        >
+                          Cancel
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
               )}
             </div>
           )}

@@ -22,6 +22,7 @@ export interface Stop {
   lat?: number;
   lng?: number;
   trailUrl?: string;
+  flag?: { note: string; flaggedAt: string };
 }
 
 export interface Day {
