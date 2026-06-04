@@ -204,7 +204,7 @@
           "time": "16:30",
           "title": "Depart for Inverness",
           "category": "travel",
-          "bookingStatus": "free",
+          "bookingStatus": "none",
           "address": "Inverness, UK",
           "highlightNote": "~100 miles, ~2 hrs via A9",
           "expandedNote": "",
