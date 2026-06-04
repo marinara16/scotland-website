@@ -661,7 +661,18 @@
       "location": "Glasgow",
       "overnightHotel": "HOTEL NEEDED",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-12-s1780555197902",
+          "time": "09:00",
+          "title": "Use the City Sightseeing Glasgow Tour Bus",
+          "category": "tour",
+          "bookingStatus": "tickets-needed",
+          "address": "",
+          "highlightNote": "Hop on and off, Stops and Ideas Included ",
+          "expandedNote": "https://citysightseeingglasgow.co.uk/wp-content/uploads/2026/05/Glasgow_Sum26_A3_Map-V7-PRINT-2.pdf"
+        }
+      ]
     },
     {
       "id": "day-13",
