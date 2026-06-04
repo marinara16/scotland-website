@@ -25,6 +25,7 @@ export default function AdminPage() {
   const [data, setData] = useState<Itinerary>(initialData as Itinerary);
   const [selectedDayId, setSelectedDayId] = useState<string>(initialData.days[0].id);
   const [editingStop, setEditingStop] = useState<Stop | null>(null);
+  const [editingDay, setEditingDay] = useState(false);
   const [addingStop, setAddingStop] = useState(false);
   const [newStop, setNewStop] = useState<Omit<Stop, 'id'>>(EMPTY_STOP);
   const [saveStatus, setSaveStatus] = useState<SaveStatus>('idle');
@@ -64,6 +65,18 @@ export default function AdminPage() {
       setSaveStatus('error');
       setSaveError(err instanceof Error ? err.message : 'Unknown error');
     }
+  }
+
+  function updateDay(dayId: string, fields: Pick<Day, 'location' | 'overnightHotel' | 'primaryCategory'>) {
+    const updated = {
+      ...data,
+      days: data.days.map((day) =>
+        day.id === dayId ? { ...day, ...fields } : day
+      ),
+    };
+    setData(updated);
+    setEditingDay(false);
+    handleSave(updated);
   }
 
   function updateStop(dayId: string, updatedStop: Stop) {
@@ -189,7 +202,7 @@ export default function AdminPage() {
               return (
                 <button
                   key={day.id}
-                  onClick={() => { setSelectedDayId(day.id); setEditingStop(null); setAddingStop(false); }}
+                  onClick={() => { setSelectedDayId(day.id); setEditingStop(null); setAddingStop(false); setEditingDay(false); }}
                   className={`w-full text-left px-3 py-2.5 rounded-lg text-xs transition-colors ${
                     selectedDayId === day.id
                       ? 'bg-[#1e3a5f] text-white'
@@ -211,6 +224,9 @@ export default function AdminPage() {
         <main className="flex-1 min-w-0">
           <DayEditor
             day={selectedDay}
+            editingDay={editingDay}
+            setEditingDay={setEditingDay}
+            onUpdateDay={(fields) => updateDay(selectedDay.id, fields)}
             editingStop={editingStop}
             setEditingStop={setEditingStop}
             addingStop={addingStop}
@@ -230,6 +246,9 @@ export default function AdminPage() {
 
 function DayEditor({
   day,
+  editingDay,
+  setEditingDay,
+  onUpdateDay,
   editingStop,
   setEditingStop,
   addingStop,
@@ -242,6 +261,9 @@ function DayEditor({
   onMoveStop,
 }: {
   day: Day;
+  editingDay: boolean;
+  setEditingDay: (v: boolean) => void;
+  onUpdateDay: (fields: Pick<Day, 'location' | 'overnightHotel' | 'primaryCategory'>) => void;
   editingStop: Stop | null;
   setEditingStop: (s: Stop | null) => void;
   addingStop: boolean;
@@ -255,10 +277,25 @@ function DayEditor({
 }) {
   const date = new Date(day.date + 'T00:00:00');
   const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure'];
+
+  const [dayLocation, setDayLocation] = useState(day.location);
+  const [dayHotel, setDayHotel] = useState(day.overnightHotel);
+  const [dayCategory, setDayCategory] = useState<Category>(day.primaryCategory);
+
+  // Sync local state whenever the selected day changes
+  useEffect(() => {
+    setDayLocation(day.location);
+    setDayHotel(day.overnightHotel);
+    setDayCategory(day.primaryCategory);
+  }, [day.id]);
+
+  const inputCls = 'w-full px-3 py-2 text-sm border border-stone-200 rounded-lg bg-white focus:outline-none focus:border-stone-400 transition-colors';
 
   return (
     <div>
-      <div className="flex items-start justify-between mb-4">
+      {/* Day header */}
+      <div className="flex items-start justify-between mb-3">
         <div>
           <h2 className="text-base font-semibold text-stone-800">
             Day {day.dayNumber} — {day.location}
@@ -268,13 +305,70 @@ function DayEditor({
             {day.overnightHotel ? ` · ${day.overnightHotel}` : ''}
           </p>
         </div>
-        <button
-          onClick={() => { setAddingStop(true); setEditingStop(null); }}
-          className="flex items-center gap-1.5 text-xs bg-[#1e3a5f] text-white px-3 py-2 rounded-lg hover:bg-[#162c4a] transition-colors"
-        >
-          <span>+</span> Add Stop
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => { setEditingDay(!editingDay); setAddingStop(false); setEditingStop(null); }}
+            className="text-xs text-stone-500 border border-stone-200 px-3 py-2 rounded-lg hover:border-stone-400 transition-colors"
+          >
+            Edit Day
+          </button>
+          <button
+            onClick={() => { setAddingStop(true); setEditingStop(null); setEditingDay(false); }}
+            className="flex items-center gap-1.5 text-xs bg-[#1e3a5f] text-white px-3 py-2 rounded-lg hover:bg-[#162c4a] transition-colors"
+          >
+            <span>+</span> Add Stop
+          </button>
+        </div>
       </div>
+
+      {/* Day-level edit form */}
+      {editingDay && (
+        <div className="mb-4 bg-white border border-blue-200 rounded-xl p-4 space-y-3">
+          <div className="flex items-center justify-between mb-1">
+            <h3 className="text-sm font-semibold text-stone-800">Edit Day Details</h3>
+            <button onClick={() => setEditingDay(false)} className="text-stone-400 hover:text-stone-600 text-xs">Cancel</button>
+          </div>
+          <div>
+            <label className="text-xs text-stone-500 font-medium mb-1 block">Location / Day Title</label>
+            <input
+              type="text"
+              value={dayLocation}
+              onChange={(e) => setDayLocation(e.target.value)}
+              placeholder="e.g. Travel to Inverness"
+              className={inputCls}
+            />
+          </div>
+          <div>
+            <label className="text-xs text-stone-500 font-medium mb-1 block">Overnight Hotel <span className="text-stone-400 font-normal">(leave blank if departing)</span></label>
+            <input
+              type="text"
+              value={dayHotel}
+              onChange={(e) => setDayHotel(e.target.value)}
+              placeholder="e.g. Rocpool Reserve Hotel, Inverness"
+              className={inputCls}
+            />
+          </div>
+          <div>
+            <label className="text-xs text-stone-500 font-medium mb-1 block">Primary Category <span className="text-stone-400 font-normal">(sets the dot colour on the calendar)</span></label>
+            <select
+              value={dayCategory}
+              onChange={(e) => setDayCategory(e.target.value as Category)}
+              className={inputCls}
+            >
+              {categories.map((c) => (
+                <option key={c} value={c}>{CATEGORY_CONFIG[c].label}</option>
+              ))}
+            </select>
+          </div>
+          <button
+            onClick={() => onUpdateDay({ location: dayLocation, overnightHotel: dayHotel, primaryCategory: dayCategory })}
+            disabled={!dayLocation.trim()}
+            className="w-full py-2.5 bg-[#1e3a5f] text-white text-sm font-medium rounded-lg hover:bg-[#162c4a] disabled:opacity-40 transition-colors"
+          >
+            Save Day
+          </button>
+        </div>
+      )}
 
       {/* Add stop form */}
       {addingStop && (
