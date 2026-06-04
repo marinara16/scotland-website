@@ -367,7 +367,20 @@
       "location": "Isle of Skye",
       "overnightHotel": "The Portree Hotel",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-7-s1780548922450",
+          "time": "08:30",
+          "title": "Old Man of Storr Hike",
+          "category": "hiking",
+          "bookingStatus": "free",
+          "address": "FRXR+PJ Portree, United Kingdom",
+          "highlightNote": "",
+          "expandedNote": "",
+          "lat": 57.412643,
+          "lng": -6.192316
+        }
+      ]
     },
     {
       "id": "day-8",
