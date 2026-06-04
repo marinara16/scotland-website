@@ -169,16 +169,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d6-s1",
-          "time": "09:00",
-          "title": "Drive to Isle of Skye via Kyle of Lochalsh",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A87, Kyle of Lochalsh, IV40 8AZ",
-          "highlightNote": "2.5-hour drive through stunning Glen Shiel and Five Sisters of Kintail.",
-          "expandedNote": "Route: Fort William → A82 → A87 → Skye Bridge. Toll-free since 2004. Stop at the Eilean Donan Castle viewpoint on the A87 — one of the most photographed castles in Scotland. Worth 30 mins at the castle itself."
-        },
-        {
           "id": "d6-s2",
           "time": "11:30",
           "title": "Eilean Donan Castle",
