@@ -277,7 +277,7 @@ function DayEditor({
 }) {
   const date = new Date(day.date + 'T00:00:00');
   const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure'];
+  const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure', 'idea'];
 
   const [dayLocation, setDayLocation] = useState(day.location);
   const [dayHotel, setDayHotel] = useState(day.overnightHotel);
@@ -519,7 +519,7 @@ function StopForm({
   onSubmit: () => void;
   submitLabel: string;
 }) {
-  const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure'];
+  const categories: Category[] = ['accommodation', 'activity', 'hiking', 'tour', 'restaurant', 'travel', 'leisure', 'idea'];
   const statuses: BookingStatus[] = ['booked-timed', 'booked-allday', 'free', 'tickets-needed'];
 
   function field(key: keyof Omit<Stop, 'id'>, value: string) {

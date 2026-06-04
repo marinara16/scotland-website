@@ -5,7 +5,8 @@ export type Category =
   | 'tour'
   | 'restaurant'
   | 'travel'
-  | 'leisure';
+  | 'leisure'
+  | 'idea';
 
 export type BookingStatus = 'booked-timed' | 'booked-allday' | 'free' | 'tickets-needed';
 

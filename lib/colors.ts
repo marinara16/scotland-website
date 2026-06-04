@@ -60,6 +60,14 @@ export const CATEGORY_CONFIG: Record<
     bg: 'bg-[#f4f2f9]',
     border: 'border-[#7b68a8]',
   },
+  idea: {
+    label: 'Idea',
+    color: '#d4a017',
+    dot: 'bg-[#d4a017]',
+    mapColor: '#d4a017',
+    bg: 'bg-[#fdf8e8]',
+    border: 'border-[#d4a017]',
+  },
 };
 
 export const BOOKING_STATUS_CONFIG = {
