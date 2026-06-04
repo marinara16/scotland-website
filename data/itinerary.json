@@ -185,6 +185,18 @@
           "expandedNote": "",
           "lat": 56.37299,
           "lng": -3.840423
+        },
+        {
+          "id": "day-4-s1780535650604",
+          "time": "13:30",
+          "title": "Glenturret Distillery Tour",
+          "category": "tour",
+          "bookingStatus": "booked-allday",
+          "address": "The Glenturret Distillery, The Hosh, Crieff PH7 4HA, United Kingdom",
+          "highlightNote": "Scotland's oldest working distillery — excellent food at The Lalique restaurant if you want a proper lunch here",
+          "expandedNote": "Your reservation number is 62BYRGT86U35",
+          "lat": 56.40072,
+          "lng": -3.88879
         }
       ]
     },
