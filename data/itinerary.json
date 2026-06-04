@@ -169,16 +169,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d6-s3",
-          "time": "14:00",
-          "title": "Cross Skye Bridge & arrive on island",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "Skye Bridge, Kyle of Lochalsh IV40",
-          "highlightNote": "The moment you cross onto Skye — a genuinely exciting feeling.",
-          "expandedNote": "Pull over at the Skye Bridge viewpoint for photos. The bridge opened in 1995. Portree is the 'capital' of Skye — stop here for supplies if needed before heading to Sligachan."
-        },
-        {
           "id": "d6-s4",
           "time": "15:30",
           "title": "Check in — Sligachan Hotel",
