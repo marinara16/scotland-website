@@ -81,10 +81,19 @@ interface Props {
   onSelectDay?: (day: Day) => void;
 }
 
+interface PinInfo {
+  title: string;
+  dayNumber: number;
+  location: string;
+  categoryLabel: string;
+  color: string;
+}
+
 export default function MapView({ days }: Props) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState('');
+  const [selected, setSelected] = useState<PinInfo | null>(null);
 
   useEffect(() => {
     if (!process.env.NEXT_PUBLIC_MAPBOX_TOKEN) {
@@ -158,18 +167,17 @@ export default function MapView({ days }: Props) {
         map.on('click', 'stops-circles', (e: mapboxgl.MapMouseEvent & { features?: mapboxgl.MapboxGeoJSONFeature[] }) => {
           if (!e.features?.length) return;
           const props = e.features[0].properties as Record<string, string>;
-          const geom = e.features[0].geometry as GeoJSON.Point;
+          setSelected({
+            title: props.title,
+            dayNumber: Number(props.dayNumber),
+            location: props.location,
+            categoryLabel: props.categoryLabel,
+            color: props.color,
+          });
+        });
 
-          new MB.Popup({ closeButton: true, maxWidth: '240px' })
-            .setLngLat(geom.coordinates as [number, number])
-            .setHTML(`
-              <div style="font-family:system-ui,sans-serif;font-size:13px;min-width:160px">
-                <div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:${props.color};margin-bottom:4px">${props.categoryLabel}</div>
-                <div style="font-weight:600;color:#1c1917;margin-bottom:4px;line-height:1.3">${props.title}</div>
-                <div style="color:#78716c;font-size:11px">Day ${props.dayNumber} · ${props.location}</div>
-              </div>
-            `)
-            .addTo(map);
+        map.on('click', (e: mapboxgl.MapMouseEvent & { features?: mapboxgl.MapboxGeoJSONFeature[] }) => {
+          if (!e.features?.length) setSelected(null);
         });
 
         map.on('mouseenter', 'stops-circles', () => {
@@ -214,6 +222,30 @@ export default function MapView({ days }: Props) {
           </div>
         )}
         <div ref={mapContainer} className="w-full h-full" />
+
+        {/* Bottom info panel — replaces floating popup */}
+        {selected && (
+          <div className="absolute bottom-3 left-3 right-3 z-20 bg-white rounded-xl shadow-lg border border-stone-100 px-4 py-3 flex items-center justify-between gap-3">
+            <div className="flex-1 min-w-0">
+              <div
+                className="text-xs font-semibold uppercase tracking-wide mb-0.5"
+                style={{ color: selected.color }}
+              >
+                {selected.categoryLabel}
+              </div>
+              <div className="text-sm font-semibold text-stone-800 truncate">{selected.title}</div>
+              <div className="text-xs text-stone-400 mt-0.5">Day {selected.dayNumber} · {selected.location}</div>
+            </div>
+            <button
+              onClick={() => setSelected(null)}
+              className="flex-shrink-0 text-stone-300 hover:text-stone-600 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
