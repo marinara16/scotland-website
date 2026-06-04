@@ -534,6 +534,16 @@
           "address": "Edinburgh Airport, EH12 9DN",
           "highlightNote": "",
           "expandedNote": ""
+        },
+        {
+          "id": "day-14-s1780552487148",
+          "time": "06:00",
+          "title": "Go to Airport",
+          "category": "travel",
+          "bookingStatus": "none",
+          "address": "Edinburgh Airport, EH12 9DN",
+          "highlightNote": "",
+          "expandedNote": ""
         }
       ]
     }
