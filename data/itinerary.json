@@ -491,6 +491,18 @@
           "expandedNote": "Go through Skye Bridge, down towards Invergarry Castle. ",
           "lat": 56.817867,
           "lng": -5.111294
+        },
+        {
+          "id": "day-9-s1780552819804",
+          "time": "11:30",
+          "title": "Quick Stop at Invergarry Castle",
+          "category": "idea",
+          "bookingStatus": "just-show-up",
+          "address": "Invergarry PH35 4HP, United Kingdom",
+          "highlightNote": "",
+          "expandedNote": "",
+          "lat": 57.06702,
+          "lng": -4.800929
         }
       ]
     },
