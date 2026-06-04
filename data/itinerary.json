@@ -593,7 +593,20 @@
       "location": "Glencoe to Glasgow",
       "overnightHotel": "HOTEL NEEDED",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-11-s1780554312195",
+          "time": "09:00",
+          "title": "Glencoe to Loch Lomond",
+          "category": "travel",
+          "bookingStatus": "parking-fee",
+          "address": "Loch Lomond, Alexandria, United Kingdom",
+          "highlightNote": "~60 miles, ~1 hr 30 min",
+          "expandedNote": "",
+          "lat": 56.000289,
+          "lng": -4.586799
+        }
+      ]
     },
     {
       "id": "day-12",
