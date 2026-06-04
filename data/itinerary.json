@@ -292,18 +292,7 @@
       "location": "Stirling & The Trossachs",
       "overnightHotel": "Roman Camp Country House, Callander",
       "primaryCategory": "activity",
-      "stops": [
-        {
-          "id": "d12-s6",
-          "time": "19:00",
-          "title": "Dinner at Roman Camp Restaurant",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Main St, Callander FK17 8BG",
-          "highlightNote": "2 AA Rosette dining in a beautiful candlelit dining room. Scottish seasonal menu.",
-          "expandedNote": "In-house restaurant. Reservation essential — only 16 covers. Tasting menu available Friday-Saturday but à la carte Mon-Thurs. October means grouse, partridge, and venison. Excellent Scottish cheese selection. Very peaceful end to a busy day."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-13",
