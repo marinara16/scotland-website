@@ -187,16 +187,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d8-s3",
-          "time": "15:30",
-          "title": "Check in — Rocpool Reserve",
-          "category": "accommodation",
-          "bookingStatus": "booked-allday",
-          "address": "14 Culduthel Rd, Inverness IV2 4AG",
-          "highlightNote": "Boutique luxury hotel on the banks of the River Ness. Very design-forward.",
-          "expandedNote": "Confirmation: RR-2026-MALDA. Boutique hotel with individually designed rooms. Albert Roux-trained kitchen. Cocktail bar is excellent. Parking on site. Located 10 minutes walk from city centre."
-        },
-        {
           "id": "d8-s4",
           "time": "17:30",
           "title": "Inverness City Centre walk",
