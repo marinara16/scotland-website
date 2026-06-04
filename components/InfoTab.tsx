@@ -19,7 +19,6 @@ const INFO_SECTIONS: Section[] = [
       { label: 'Fuel', value: 'Fill up in towns — remote Highland stations are rare and expensive' },
       { label: 'Parking', value: 'Many Highland spots use timed entry with pre-booked parking. Check Discover Scotland app.' },
       { label: 'Speed cameras', value: 'Average speed cameras on A9. Don\'t exceed 60mph between cameras.' },
-      { label: 'Rental car', value: 'Arnold Clark. Ref: AC-SCOT-2026. Full-to-full fuel. Return to Glasgow Lancefield.' },
     ],
   },
   {
@@ -44,7 +43,7 @@ const INFO_SECTIONS: Section[] = [
       { label: 'Non-emergency police', value: '101' },
       { label: 'NHS 24', value: '111 — Medical advice, not emergencies' },
       { label: 'Mountain Rescue', value: 'Call 999, ask for Police, then Mountain Rescue' },
-      { label: 'Arnold Clark breakdown', value: '0800 292 0249' },
+      { label: 'Rental car breakdown', value: 'Check your rental agreement for the emergency number' },
       { label: 'RAC breakdown', value: '0800 197 3592' },
       { label: 'Travel insurance', value: 'Check your policy card for 24hr assistance number' },
     ],
