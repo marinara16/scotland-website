@@ -267,16 +267,6 @@
       "primaryCategory": "tour",
       "stops": [
         {
-          "id": "d9-s1",
-          "time": "09:00",
-          "title": "Drive to Speyside via Cairngorms",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A9, Cairngorms National Park, PH21 1NX",
-          "highlightNote": "Glorious 1.5-hour drive through the UK's largest national park in full autumn colour.",
-          "expandedNote": "Route: Inverness → A9 south → B9152 through Aviemore → B970 → A95 east to Speyside. Stop at Loch an Eilein in the Cairngorms — tiny island castle in a woodland loch, 30-minute walk round. Aviemore is a good coffee stop."
-        },
-        {
           "id": "d9-s3",
           "time": "13:30",
           "title": "Lunch at The Highlander Inn, Craigellachie",
