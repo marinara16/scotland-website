@@ -185,18 +185,7 @@
       "location": "Inverness",
       "overnightHotel": "Rocpool Reserve Hotel, Inverness",
       "primaryCategory": "travel",
-      "stops": [
-        {
-          "id": "d8-s5",
-          "time": "19:30",
-          "title": "Dinner at Rocpool Restaurant",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "1 Ness Walk, Inverness IV3 5NE",
-          "highlightNote": "Highly regarded modern Scottish bistro on the river. Lively and well-priced for the quality.",
-          "expandedNote": "Separate from the hotel — same ownership but different venue. Extremely popular so reservation essential. Bistro-style modern Scottish food. Known for beef fillet, pan-seared scallops, and inventive desserts. ~£60pp with wine."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-9",
