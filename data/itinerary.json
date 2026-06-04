@@ -99,7 +99,18 @@
       "location": "Edinburgh",
       "overnightHotel": "InterContinental Edinburgh the George by IHG",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-3-s1780534301712",
+          "time": "10:00",
+          "title": "National Museum of Scotland",
+          "category": "activity",
+          "bookingStatus": "free",
+          "address": "Chambers St, Edinburgh EH1 1JF, United Kingdom",
+          "highlightNote": "Scottish History, Science, Nature, World Cultures",
+          "expandedNote": ""
+        }
+      ]
     },
     {
       "id": "day-4",
