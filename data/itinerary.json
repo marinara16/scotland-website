@@ -716,7 +716,9 @@
           "bookingStatus": "just-show-up",
           "address": "Glasgow G12 8QQ, United Kingdom",
           "highlightNote": "Get off on Stop 21",
-          "expandedNote": ""
+          "expandedNote": "",
+          "lat": 55.871751,
+          "lng": -4.28836
         }
       ]
     },
