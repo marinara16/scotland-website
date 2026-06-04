@@ -671,6 +671,18 @@
           "address": "",
           "highlightNote": "Hop on and off, Stops and Ideas Included ",
           "expandedNote": "https://citysightseeingglasgow.co.uk/wp-content/uploads/2026/05/Glasgow_Sum26_A3_Map-V7-PRINT-2.pdf"
+        },
+        {
+          "id": "day-12-s1780555302851",
+          "time": "",
+          "title": "Glasgow Cathedral",
+          "category": "idea",
+          "bookingStatus": "just-show-up",
+          "address": "Castle St, Glasgow G4 0QZ, United Kingdom",
+          "highlightNote": "",
+          "expandedNote": "",
+          "lat": 55.864172,
+          "lng": -4.23656
         }
       ]
     },
