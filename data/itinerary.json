@@ -345,6 +345,18 @@
           "expandedNote": "Reservation Number: 33418",
           "lat": 57.412929,
           "lng": -6.194617
+        },
+        {
+          "id": "day-6-s1780538573757",
+          "time": "16:00",
+          "title": "Dornie to Portree",
+          "category": "travel",
+          "bookingStatus": "free",
+          "address": "Portree, UK",
+          "highlightNote": "~43 miles, ~1 hr",
+          "expandedNote": "",
+          "lat": 57.412643,
+          "lng": -6.192316
         }
       ]
     },
