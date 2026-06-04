@@ -151,16 +151,6 @@
       "primaryCategory": "hiking",
       "stops": [
         {
-          "id": "d4-s2",
-          "time": "10:30",
-          "title": "Glencoe Visitor Centre",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Glencoe Visitor Centre, PH49 4LA",
-          "highlightNote": "Free NTS visitor centre with exhibition on the 1692 Glencoe Massacre.",
-          "expandedNote": "Run by National Trust for Scotland. Excellent 30-min exhibition on the Glencoe Massacre and the history of the glen. Good maps for walks. Café on site. NTS members get free entry — worth checking membership."
-        },
-        {
           "id": "d4-s3",
           "time": "12:00",
           "title": "Three Sisters Ridge Walk",
