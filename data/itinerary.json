@@ -178,16 +178,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d7-s1",
-          "time": "09:00",
-          "title": "Old Man of Storr Hike",
-          "category": "hiking",
-          "bookingStatus": "booked-timed",
-          "address": "Old Man of Storr Car Park, Portree IV51 9HX",
-          "highlightNote": "Skye's most iconic rock pinnacle — a 2-hour return hike with extraordinary views.",
-          "expandedNote": "Timed entry parking system — book a slot via VisitScotland website before travel. Car park fills extremely early in season. Trail is well-marked but steep in places. The pinnacle itself is 49m tall. Views from the top extend to the mainland on clear days."
-        },
-        {
           "id": "d7-s2",
           "time": "12:00",
           "title": "Portree Harbour & Lunch",
