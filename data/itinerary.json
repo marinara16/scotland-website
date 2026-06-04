@@ -173,6 +173,18 @@
           "expandedNote": "",
           "lat": 56.122484,
           "lng": -3.94468
+        },
+        {
+          "id": "day-4-s1780535593004",
+          "time": "12:30",
+          "title": "Depart Stirling Castle for Creiff",
+          "category": "travel",
+          "bookingStatus": "free",
+          "address": "Crieff, UK",
+          "highlightNote": "Eat on the way, quick meal",
+          "expandedNote": "",
+          "lat": 56.37299,
+          "lng": -3.840423
         }
       ]
     },
