@@ -285,16 +285,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d11-s3",
-          "time": "13:30",
-          "title": "Lunch at The Seafood Ristorante",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "The Scores, St Andrews KY16 9AS",
-          "highlightNote": "Glass-fronted restaurant perched over the sea cliff. Lobster, langoustines, and Crail crab.",
-          "expandedNote": "Reservation under Malda. Stunning sea views from every table. Lunch is more affordable than dinner. Known for the plateau de fruits de mer — showstopper for two. Also excellent pasta and risotto. ~£50pp for lunch with a glass of white."
-        },
-        {
           "id": "d11-s4",
           "time": "15:00",
           "title": "Walk the Old Course & West Sands Beach",
