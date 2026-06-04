@@ -321,6 +321,18 @@
           "expandedNote": "Reservation Number: 33418",
           "lat": 57.412929,
           "lng": -6.194617
+        },
+        {
+          "id": "day-6-s1780538319680",
+          "time": "13:00",
+          "title": "Drumnadrochit to Dornie",
+          "category": "travel",
+          "bookingStatus": "free",
+          "address": "Dornie, UK",
+          "highlightNote": "Scenic drive along Loch Ness to Dornie, ~40 miles, ~1 hr",
+          "expandedNote": "",
+          "lat": 57.280373,
+          "lng": -5.514052
         }
       ]
     },
