@@ -167,18 +167,7 @@
       "location": "Isle of Skye",
       "overnightHotel": "Sligachan Hotel, Isle of Skye",
       "primaryCategory": "travel",
-      "stops": [
-        {
-          "id": "d6-s5",
-          "time": "19:00",
-          "title": "Dinner at Seumas' Bar, Sligachan",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "Sligachan Hotel, Isle of Skye IV47 8SW",
-          "highlightNote": "Classic Highland bar with own-brewed ales and Skye seafood. Hugely atmospheric.",
-          "expandedNote": "Try the Sligachan ales — brewed on site. Cullen skink is excellent here. Photos of climbers on the Cuillins cover every wall. Lively in the evening with hikers sharing tales."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-7",
