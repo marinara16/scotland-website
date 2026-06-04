@@ -101,16 +101,6 @@
       "primaryCategory": "travel",
       "stops": [
         {
-          "id": "d3-s2",
-          "time": "11:30",
-          "title": "Luss Village & Lochside Walk",
-          "category": "activity",
-          "bookingStatus": "booked-allday",
-          "address": "Luss, Loch Lomond, G83 8NY",
-          "highlightNote": "The prettiest village on the loch. Rose-covered cottages, pebble beach, mountain views.",
-          "expandedNote": "Free to visit. Short walk along the beach to the old pier. The village was used as a filming location for the Scottish TV series Take the High Road. Tearoom in the village for coffee and scones."
-        },
-        {
           "id": "d3-s3",
           "time": "14:00",
           "title": "Check in — Cameron House",
