@@ -285,7 +285,20 @@
       "location": "Isle of Skye",
       "overnightHotel": "Sligachan Hotel, Isle of Skye",
       "primaryCategory": "travel",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-6-s1780536735293",
+          "time": "16:00",
+          "title": "The Portree Hotel",
+          "category": "accommodation",
+          "bookingStatus": "booked-allday",
+          "address": "Somerled Square, Portree IV51 9EH, United Kingdom",
+          "highlightNote": "Check in starts at 4:00 PM",
+          "expandedNote": "Reservation Number: 33418",
+          "lat": 57.412929,
+          "lng": -6.194617
+        }
+      ]
     },
     {
       "id": "day-7",
