@@ -727,7 +727,18 @@
       "location": "Glasgow to Edinburgh",
       "overnightHotel": "HOTEL NEEDED",
       "primaryCategory": "activity",
-      "stops": []
+      "stops": [
+        {
+          "id": "day-13-s1780555852166",
+          "time": "11:00",
+          "title": "Train from Glasgow to Edinburgh",
+          "category": "travel",
+          "bookingStatus": "tickets-needed",
+          "address": "",
+          "highlightNote": "",
+          "expandedNote": ""
+        }
+      ]
     },
     {
       "id": "day-14",
