@@ -161,6 +161,18 @@
           "expandedNote": "",
           "lat": 55.950971,
           "lng": -3.182267
+        },
+        {
+          "id": "day-4-s1780535498893",
+          "time": "10:00",
+          "title": "Stirling Castle",
+          "category": "activity",
+          "bookingStatus": "tickets-needed",
+          "address": "Castle Wynd, Stirling FK8 1EJ, United Kingdom",
+          "highlightNote": "Timed Tickets needed, aim for the 10:00 AM - 10:30 AM slot",
+          "expandedNote": "",
+          "lat": 56.122484,
+          "lng": -3.94468
         }
       ]
     },
