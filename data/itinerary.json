@@ -513,6 +513,18 @@
           "address": "",
           "highlightNote": "Enjoy the views of Ben Nevis, the tallest mountain in the UK",
           "expandedNote": ""
+        },
+        {
+          "id": "day-9-s1780552993273",
+          "time": "14:00",
+          "title": "Fort Williams to Accommodation in Glencoe",
+          "category": "travel",
+          "bookingStatus": "booked-allday",
+          "address": "Lower Carnoch, Glencoe, Ballachulish PH49 4HS, United Kingdom",
+          "highlightNote": "~16 miles, ~30 min",
+          "expandedNote": "",
+          "lat": 56.682545,
+          "lng": -5.102262
         }
       ]
     },
