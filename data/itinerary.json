@@ -274,18 +274,7 @@
       "location": "Aberdeen & Dunnottar Castle",
       "overnightHotel": "Marcliffe Hotel, Aberdeen",
       "primaryCategory": "activity",
-      "stops": [
-        {
-          "id": "d10-s5",
-          "time": "19:30",
-          "title": "Dinner at The Conservatory, Marcliffe",
-          "category": "restaurant",
-          "bookingStatus": "booked-allday",
-          "address": "North Deeside Rd, Pitfodels, Aberdeen AB15 9YA",
-          "highlightNote": "Rosette-awarded restaurant — Aberdeen Angus beef is spectacular here.",
-          "expandedNote": "In-house fine dining. Aberdeen Angus sirloin is the dish to order. Good seafood from the North Sea too. Scottish cheeseboard is excellent — Mull Cheddar, Isle of Arran Brie, and Strathdon Blue. Ask for the port pairing with cheese."
-        }
-      ]
+      "stops": []
     },
     {
       "id": "day-11",
