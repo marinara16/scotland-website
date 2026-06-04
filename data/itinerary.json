@@ -285,16 +285,6 @@
       "primaryCategory": "activity",
       "stops": [
         {
-          "id": "d11-s1",
-          "time": "09:00",
-          "title": "Drive Aberdeen to St Andrews",
-          "category": "travel",
-          "bookingStatus": "booked-allday",
-          "address": "A92, St Andrews, KY16 9SF",
-          "highlightNote": "2-hour coastal drive through the East Neuk of Fife. Stop at Crail for photos.",
-          "expandedNote": "Route: Aberdeen → A90 → A92 through Arbroath and the East Neuk fishing villages. Stop at Crail and Pittenweem — the most picturesque fishing villages on the Fife coast. Grab coffee and a pastry at the Crail Food Company."
-        },
-        {
           "id": "d11-s3",
           "time": "13:30",
           "title": "Lunch at The Seafood Ristorante",
