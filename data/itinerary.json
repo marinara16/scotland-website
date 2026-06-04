@@ -380,6 +380,18 @@
           "lat": 57.412643,
           "lng": -6.192316,
           "trailUrl": "https://www.alltrails.com/trail/scotland/highlands/old-man-of-storr"
+        },
+        {
+          "id": "day-7-s1780549063315",
+          "time": "11:30",
+          "title": "Kilt Rock & Mealt Falls",
+          "category": "leisure",
+          "bookingStatus": "free",
+          "address": "Portree IV51 9JE, United Kingdom",
+          "highlightNote": "Basalt cliffs, 100-foot waterfall. Viewpoint in Car Park",
+          "expandedNote": "",
+          "lat": 57.609874,
+          "lng": -6.182133
         }
       ]
     },
