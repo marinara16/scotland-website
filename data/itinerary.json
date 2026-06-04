@@ -59,6 +59,16 @@
           "address": "High St, Edinburgh EH1 1RF, United Kingdom",
           "highlightNote": "Meeting Place for Tour, the tour starts at 1:00 PM",
           "expandedNote": ""
+        },
+        {
+          "id": "day-2-s1780533551200",
+          "time": "",
+          "title": "Tron Kirk Market",
+          "category": "idea",
+          "bookingStatus": "free",
+          "address": "122 High St, Edinburgh EH1 1SG, United Kingdom",
+          "highlightNote": "Local market with artists, good place for souvenirs. ",
+          "expandedNote": ""
         }
       ]
     },
