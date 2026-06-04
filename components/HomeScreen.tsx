@@ -1,8 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import itinerary from '@/data/itinerary.json';
-import type { Day } from '@/lib/types';
+import { useState, useEffect } from 'react';
+import type { Day, Itinerary } from '@/lib/types';
 import DayCard from './DayCard';
 import DayDetail from './DayDetail';
 import MapView from './MapView';
@@ -14,10 +13,25 @@ type Tab = 'home' | 'map' | 'info';
 export default function HomeScreen() {
   const [activeTab, setActiveTab] = useState<Tab>('home');
   const [selectedDay, setSelectedDay] = useState<Day | null>(null);
+  const [itinerary, setItinerary] = useState<Itinerary | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  const days = itinerary.days as Day[];
+  useEffect(() => {
+    fetch('/api/itinerary')
+      .then((r) => r.json())
+      .then((data: Itinerary) => { setItinerary(data); setLoading(false); })
+      .catch(() => setLoading(false));
+  }, []);
 
-  // Split into two weeks
+  if (loading || !itinerary) {
+    return (
+      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
+        <div className="text-stone-400 text-sm">Loading itinerary…</div>
+      </div>
+    );
+  }
+
+  const days = itinerary.days;
   const week1 = days.slice(0, 7);
   const week2 = days.slice(7, 14);
 

@@ -2,7 +2,6 @@
 
 import { useEffect, useState, useCallback } from 'react';
 import { checkAuth, validatePassword, setAuth } from '@/lib/auth';
-import initialData from '@/data/itinerary.json';
 import type { Itinerary, Day, Stop, Category, BookingStatus } from '@/lib/types';
 import { CATEGORY_CONFIG, BOOKING_STATUS_CONFIG } from '@/lib/colors';
 
@@ -18,18 +17,33 @@ const EMPTY_STOP: Omit<Stop, 'id'> = {
   expandedNote: '',
 };
 
+const EMPTY_ITINERARY: Itinerary = { tripTitle: '', travelers: 2, days: [] };
+
 export default function AdminPage() {
   const [authed, setAuthed] = useState<boolean | null>(null);
   const [password, setPassword] = useState('');
   const [pwError, setPwError] = useState(false);
-  const [data, setData] = useState<Itinerary>(initialData as Itinerary);
-  const [selectedDayId, setSelectedDayId] = useState<string>(initialData.days[0].id);
+  const [data, setData] = useState<Itinerary>(EMPTY_ITINERARY);
+  const [dataLoading, setDataLoading] = useState(true);
+  const [selectedDayId, setSelectedDayId] = useState<string>('');
   const [editingStop, setEditingStop] = useState<Stop | null>(null);
   const [editingDay, setEditingDay] = useState(false);
   const [addingStop, setAddingStop] = useState(false);
   const [newStop, setNewStop] = useState<Omit<Stop, 'id'>>(EMPTY_STOP);
   const [saveStatus, setSaveStatus] = useState<SaveStatus>('idle');
   const [saveError, setSaveError] = useState('');
+
+  useEffect(() => {
+    // Load live itinerary from GitHub via API
+    fetch('/api/itinerary')
+      .then((r) => r.json())
+      .then((d: Itinerary) => {
+        setData(d);
+        setSelectedDayId(d.days[0]?.id ?? '');
+        setDataLoading(false);
+      })
+      .catch(() => setDataLoading(false));
+  }, []);
 
   useEffect(() => {
     setAuthed(checkAuth());
@@ -136,7 +150,13 @@ export default function AdminPage() {
     handleSave(updated);
   }
 
-  if (authed === null) return <div className="min-h-screen bg-stone-50" />;
+  if (authed === null || (authed && dataLoading)) {
+    return (
+      <div className="min-h-screen bg-stone-50 flex items-center justify-center">
+        <div className="text-stone-400 text-sm">Loading…</div>
+      </div>
+    );
+  }
 
   if (!authed) {
     return (
