@@ -596,8 +596,8 @@
       "id": "day-11",
       "dayNumber": 11,
       "date": "2026-10-15",
-      "location": "Glencoe to Glasgow",
-      "overnightHotel": "HOTEL NEEDED",
+      "location": "Glencoe to Loch Lomond",
+      "overnightHotel": "",
       "primaryCategory": "activity",
       "stops": [
         {
