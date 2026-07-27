@@ -316,7 +316,7 @@
           "time": "10:00",
           "title": "The Loch Ness Experience Cruise Tour",
           "category": "tour",
-          "bookingStatus": "booked-allday",
+          "bookingStatus": "tickets-needed",
           "address": "Drumnadrochit, Inverness IV63 6AN, United Kingdom",
           "highlightNote": "1 hour cruise around Loch Ness",
           "expandedNote": "",
