@@ -623,18 +623,6 @@
           "expandedNote": "",
           "lat": 56.101006,
           "lng": -4.638663
-        },
-        {
-          "id": "day-11-s1780554502381",
-          "time": "11:00",
-          "title": "Luss to Glasgow",
-          "category": "travel",
-          "bookingStatus": "none",
-          "address": "Glasgow, UK",
-          "highlightNote": "~35 miles, ~1 hour",
-          "expandedNote": "",
-          "lat": 55.860982,
-          "lng": -4.248879
         }
       ]
     },
